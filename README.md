@@ -1,10 +1,10 @@
 Project Name
-Hello World
+Portfolio-mobile
 
-This project says Hello world. Set up a "Hello Microverse" project
+Project at Microverse Portfolio-mobile
 
 Built With
-Major languages Html a
+Major languages HTML & CSS
 Authors
 👤 Author1
 
