@@ -1,8 +1,7 @@
 * {
   box-sizing: 150px;
-
   margin: 0;
-  font-family: "Roboto";
+  font-family: "Roboto";  
 }
 
 .top-container {
@@ -12,7 +11,7 @@
   width: 375px;
   padding-top: 16px;
   color: white;
-  justify-content: space-evenly ;
+  justify-content: space-evenly;
   gap: 190px;
 }
 
@@ -31,7 +30,7 @@
 }
 
 .nav-container {
-  background-color: #3a3c39
+  background-color: #3a3c39;
 }
 
 header {
@@ -98,4 +97,3 @@ header {
 .social-link-item {
   margin-left: 23px;
 }
-
