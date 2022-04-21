@@ -17,6 +17,7 @@ header {
   left: 0;
   top: 0;
 }
+
 .time-network {
   display: flex;
   justify-content: space-between;
@@ -74,7 +75,7 @@ h2 {
   color: #ff6b00;
   line-height: 64px;
   margin: 0;
-  font-family: "Crete Round";
+  font-family: "Crete Round",sans-serif;
 }
 
 .job {
