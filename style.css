@@ -2,6 +2,7 @@
   box-sizing: 150px;
   margin: 0;
   font-family: "Roboto";
+  
 }
 .top-container {
   display: flex;
@@ -12,20 +13,25 @@
   color: white;
   justify-content: space-evenly ;
   gap: 190px;
+
 }
 .network {
   display: flex;
   padding: 0;
   list-style-type: none;
+
 }
 .top-container-item {
   margin: 3px;
+
 }
 .wrapper {
   max-width: 768px;
+
 }
 .nav-container {
   background-color: #3a3c39
+
 }
 header {
   display: flex;
@@ -34,12 +40,14 @@ header {
   height: 25px;
   padding-right: 35px;
   padding-left: 19px;
+
 }
 .nike-name {
   font-size: 18px;
   font-weight: 700;
   color: white;
   margin: 0px;
+
 }
 .greeting {
   font-size: 56px;
@@ -47,7 +55,8 @@ header {
   line-height: 64px;
   margin: 0;
   font-family: "Crete round";
-        }
+
+}
 .home-container {
   display: flex;
   padding-top: 120px;
@@ -59,7 +68,8 @@ header {
   background-repeat: no-repeat;
   background-position: right bottom 13%;
   height: 590px;
-    }
+
+}
 .job {
   font-size: 24px;
   font-weight: 700;
@@ -68,20 +78,24 @@ header {
   margin: 0;
   margin-bottom: 6px;
   margin-top: 6px;
-    }
+
+}
 .about-me {
   font-family: "Poppins";
   font-size: 16px;
   line-height: 24px;
   color: white;
   margin: 0;
-    }
+
+}
 .social-link-list {
   display: flex;
   padding: 0;
-  margin-top: 22px;
-    }
+  margin-top: 22px; 
+
+}
 .social-link-item {
   margin-left: 23px;
-    }
+
+}
 
