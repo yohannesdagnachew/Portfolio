@@ -1,11 +1,10 @@
-header {
+body {
   height: 590px;
   width: 375px;
   left: 0;
   top: 92px;
   border-radius: 0;
   padding: 120px, 24px, 120px, 24px;
-  background-color: black;
 }
 
 .nav-container {
@@ -16,6 +15,7 @@ header {
   width: 375px;
   left: 0;
   top: 0;
+  background-color: black;
 }
 
 .time-network {
@@ -99,8 +99,9 @@ h2 {
   display: flex;
   padding: 0;
   margin-top: 22px;
+  list-style-type: none;
 }
 
-.social-link-item {
-  margin-left: 23px;
+.social-link-item{
+  margin-right: 12px;
 }

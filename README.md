@@ -1,26 +1,38 @@
-Project Name
+![](https://img.shields.io/badge/Microverse-blueviolet)
+
+# Project Name
+
 Portfolio-mobile
 
-Project at Microverse Portfolio-mobile
+>
 
-Built With
-Major languages HTML & CSS
-Authors
-👤 Author1
+## Built With
 
-GitHub: @yohannesdagnachew
-LinkedIn: LinkedIn
-🤝 Contributing
+-Project at Microverse Portfolio-mobile
+
+## Authors
+
+👤 **Author1**
+
+- GitHub: [@yohannesdagnachew](https://github.com/yohannesdagnachew)
+- LinkedIn: [LinkedIn](linkedin.com/in/yohannes-dagnachew-5b163a236)
+
+## 🤝 Contributing
+
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the issues page.
+Feel free to check the [issues page](../../issues/).
 
-Show your support
+## Show your support
+
 Give a ⭐️ if you like this project!
 
-Acknowledgments
-Microverse team
-My Family
-etc
-📝 License
+## Acknowledgments
+
+- Microverse team
+- My Family
+- etc
+
+## 📝 License
+
 None
