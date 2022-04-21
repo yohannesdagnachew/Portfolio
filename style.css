@@ -1,60 +1,60 @@
-* {
-  box-sizing: 150px;
-  margin: 0;
-  font-family: "Roboto";  
-}
-
-.top-container {
-  display: flex;
-  background-color: #3a3c39;
-  height: 48px;
+header {
+  height: 590px;
   width: 375px;
-  padding-top: 16px;
-  color: white;
-  justify-content: space-evenly;
-  gap: 190px;
-}
-
-.network {
-  display: flex;
-  padding: 0;
-  list-style-type: none;
-}
-
-.top-container-item {
-  margin: 3px;
-}
-
-.wrapper {
-  max-width: 768px;
+  left: 0px;
+  top: 92px;
+  border-radius: 0px;
+  padding: 120px, 24px, 120px, 24px;
+  background-color: black;
 }
 
 .nav-container {
-  background-color: #3a3c39;
-}
-
-header {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  background-color:#3a3c39;
+  height: 92px;
+  width: 375px;
+  left: 0px;
+  top: 0px;
+}
+
+.time-network {
+  display: flex;
   justify-content: space-between;
-  height: 25px;
-  padding-right: 35px;
-  padding-left: 19px;
+  color: white;    
 }
 
-.nike-name {
-  font-size: 18px;
-  font-weight: 700;
+.network-only {
+  display: flex;  
+  list-style-type: none;
+  padding-right: 21px;  
+}
+
+.network-only-item {
+  padding: 2px;
+}
+
+h4 {
+  height: 16px;
+  width: 54px;
+  left: 0px;
+  top: 3px; 
+  padding-left: 25px;
+}
+
+.name-and-burger {
+  display: flex; 
+  justify-content: space-between;
+  background-color: #3a3c39;     
+}
+
+h2 {
   color: white;
-  margin: 0px;
+  padding-left: 18px;
 }
 
-.greeting {
-  font-size: 56px;
-  color: #ff6b00;
-  line-height: 64px;
-  margin: 0;
-  font-family: "Crete round";
+.burger {
+  padding-right: 29px;    
 }
 
 .home-container {
@@ -70,6 +70,14 @@ header {
   height: 590px;
 }
 
+.greeting {
+  font-size: 56px;
+  color: #ff6b00;
+  line-height: 64px;
+  margin: 0;
+  font-family: "Crete round";
+}
+  
 .job {
   font-size: 24px;
   font-weight: 700;
@@ -79,7 +87,7 @@ header {
   margin-bottom: 6px;
   margin-top: 6px;
 }
-
+  
 .about-me {
   font-family: "Poppins";
   font-size: 16px;
@@ -87,13 +95,13 @@ header {
   color: white;
   margin: 0;
 }
-
+  
 .social-link-list {
   display: flex;
   padding: 0;
   margin-top: 22px; 
 }
-
+  
 .social-link-item {
   margin-left: 23px;
 }
