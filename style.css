@@ -1,33 +1,33 @@
-*{
+* {
     box-sizing:150px;
     margin: 0;
     font-family: "Roboto";
 }
-.top-container{
- display: flex;
-background-color: #3A3C39;
-height: 48px;
-width: 375px;
-padding-top: 16px;
-color: white;
-justify-content: space-evenly ;
-gap: 190px;
-}
-.network{
+.top-container {
     display: flex;
-   padding: 0;
-   list-style-type: none;
+    background-color: #3a3c39;
+    height: 48px;
+    width: 375px;
+    padding-top: 16px;
+    color: white;
+    justify-content: space-evenly ;
+    gap: 190px;
 }
-.top-container-item{
+.network {
+    display: flex;
+    padding: 0;
+    list-style-type: none;
+}
+.top-container-item {
     margin: 3px;
 }
 .wrapper {
     max-width:768px;
 }
-.nav-container{
-    background-color:#3A3C39
+.nav-container {
+    background-color:#3a3c39
 }
-header{
+header {
     display:flex;
     align-items:center;
     justify-content:space-between;
@@ -35,53 +35,53 @@ header{
     padding-right:35px;
     padding-left:19px;
 }
-.nike-name{
+.nike-name {
     font-size: 18px;
     font-weight: 700;
     color: white;
     margin: 0px;
 }
-    .greeting{
-        font-size: 56px;
-        color: #FF6B00;
-        line-height: 64px;
-        margin: 0;
-        font-family: "Crete round";
+.greeting {
+    font-size: 56px;
+    color: #ff6b00;
+    line-height: 64px;
+    margin: 0;
+    font-family: "Crete round";
         }
-    .home-container{
-      display: flex;
-      padding-top: 120px;
-      background-color: black;
-      flex-direction: column;
-      padding-left: 24px;
-      padding-right: 24px;
-      background-image: url(image/Group.svg);
-      background-repeat: no-repeat;
-      background-position: right bottom 13%;
-      height: 590px;
+.home-container {
+     display: flex;
+     padding-top: 120px;
+     background-color: black;
+     flex-direction: column;
+     padding-left: 24px;
+     padding-right: 24px;
+     background-image: url(image/Group.svg);
+     background-repeat: no-repeat;
+     background-position: right bottom 13%;
+     height: 590px;
     }
-    .job{
-        font-size: 24px;
-        font-weight: 700;
-        color: white;
-        line-height: 32px;
-        margin: 0;
-        margin-bottom: 6px;
-        margin-top: 6px;
+.job {
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    line-height: 32px;
+    margin: 0;
+    margin-bottom: 6px;
+    margin-top: 6px;
     }
-    .about-me{
-        font-family: "Poppins";
-        font-size: 16px;
-        line-height:24px;
-        color: white;
-        margin: 0;
+.about-me {
+    font-family: "Poppins";
+    font-size: 16px;
+    line-height:24px;
+    color: white;
+    margin: 0;
     }
-    .social-link-list{
-        display: flex;
-        padding: 0;
-        margin-top: 22px;
+.social-link-list {
+    display: flex;
+    padding: 0;
+    margin-top: 22px;
     }
-    .social-link-item{
-        margin-left: 23px;
+.social-link-item {
+    margin-left: 23px;
     }
 
