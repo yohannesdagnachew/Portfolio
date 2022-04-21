@@ -5,6 +5,8 @@ body {
   top: 92px;
   border-radius: 0;
   padding: 120px, 24px, 120px, 24px;
+  margin-left: 500px;
+  margin-top: 7%;
 }
 
 .nav-container {
@@ -22,6 +24,7 @@ body {
   display: flex;
   justify-content: space-between;
   color: white;
+  background-color: #3a3c39;
 }
 
 .network-only {
@@ -84,6 +87,7 @@ h2 {
   color: #fff5e1;
   line-height: 32px;
   margin: 0;
+  padding: 0;
   margin-bottom: 6px;
   margin-top: 6px;
 }
