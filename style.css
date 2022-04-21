@@ -38,12 +38,12 @@ h4 {
   height: 16px;
   width: 54px;
   left: 0;
-  top: 3px; 
+  top: 3px;
   padding-left: 25px;
 }
 
 .name-and-burger {
-  display: flex; 
+  display: flex;
   justify-content: space-between;
   background-color: #3a3c39;
 }
@@ -81,7 +81,7 @@ h2 {
 .job {
   font-size: 24px;
   font-weight: 700;
-  color: white;
+  color: #fff5e1;
   line-height: 32px;
   margin: 0;
   margin-bottom: 6px;
