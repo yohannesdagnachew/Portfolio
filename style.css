@@ -21,13 +21,13 @@ header {
 .time-network {
   display: flex;
   justify-content: space-between;
-  color: white;    
+  color: white;
 }
 
 .network-only {
   display: flex;  
   list-style-type: none;
-  padding-right: 21px;  
+  padding-right: 21px;
 }
 
 .network-only-item {
@@ -45,7 +45,7 @@ h4 {
 .name-and-burger {
   display: flex; 
   justify-content: space-between;
-  background-color: #3a3c39;     
+  background-color: #3a3c39;
 }
 
 h2 {
@@ -54,7 +54,7 @@ h2 {
 }
 
 .burger {
-  padding-right: 29px;    
+  padding-right: 29px;
 }
 
 .home-container {
@@ -99,7 +99,7 @@ h2 {
 .social-link-list {
   display: flex;
   padding: 0;
-  margin-top: 22px; 
+  margin-top: 22px;
 }
   
 .social-link-item {
