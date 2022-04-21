@@ -17,7 +17,6 @@ header {
   left: 0;
   top: 0;
 }
-
 .time-network {
   display: flex;
   justify-content: space-between;
@@ -77,7 +76,7 @@ h2 {
   margin: 0;
   font-family: "Crete Round";
 }
-  
+
 .job {
   font-size: 24px;
   font-weight: 700;
@@ -87,7 +86,7 @@ h2 {
   margin-bottom: 6px;
   margin-top: 6px;
 }
-  
+
 .about-me {
 
   font-size: 16px;
@@ -95,13 +94,13 @@ h2 {
   color: white;
   margin: 0;
 }
-  
+
 .social-link-list {
   display: flex;
   padding: 0;
   margin-top: 22px;
 }
-  
+
 .social-link-item {
   margin-left: 23px;
 }
