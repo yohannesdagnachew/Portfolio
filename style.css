@@ -7,6 +7,7 @@ header {
   padding: 120px, 24px, 120px, 24px;
   background-color: black;
 }
+
 .nav-container {
   display: flex;
   flex-direction: column;
@@ -16,19 +17,23 @@ header {
   left: 0;
   top: 0;
 }
+
 .time-network {
   display: flex;
   justify-content: space-between;
   color: white;    
 }
+
 .network-only {
   display: flex;  
   list-style-type: none;
   padding-right: 21px;  
 }
+
 .network-only-item {
   padding: 2px;
 }
+
 h4 {
   height: 16px;
   width: 54px;
@@ -36,6 +41,7 @@ h4 {
   top: 3px; 
   padding-left: 25px;
 }
+
 .name-and-burger {
   display: flex; 
   justify-content: space-between;
