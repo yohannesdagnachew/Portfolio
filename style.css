@@ -14,28 +14,29 @@ body {
   background-color: #3a3c39;
   height: 48px;
   width: 375px;
-  left: 0px;
+  left: 0;
   top: 44px;
-  border-radius: 0px;
+  border-radius: 0;
 }
 
 .burger {
   height: 12px;
   width: 18px;
   left: 3px;
+  padding-right: 29px;
   top: 6px;
   margin-top: 12px;
   margin-right: 17px;
   margin-bottom: 19px;
-  border-radius: 0px;
+  border-radius: 0;
 }
 
 .name {
   height: 300px;
   width: 375px;
-  left: 0px;
+  left: 0;
   top: 44px;
-  border-radius: 0px;
+  border-radius: 0;
   margin-left: 24px;
   margin-top: 6px;
 }
@@ -43,10 +44,6 @@ body {
 h2 {
   color: white;
   padding-left: 18px;
-}
-
-.burger {
-  padding-right: 29px;
 }
 
 .home-container {
