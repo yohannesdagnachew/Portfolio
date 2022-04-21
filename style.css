@@ -11,7 +11,7 @@ header {
 .nav-container {
   display: flex;
   flex-direction: column;
-  background-color:#3a3c39;
+  background-color: #3a3c39;
   height: 92px;
   width: 375px;
   left: 0;
