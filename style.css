@@ -5,7 +5,8 @@ header {
   top: 92px;
   border-radius: 0;
   padding: 120px, 24px, 120px, 24px;
-  background-color: black;}
+  background-color: black;
+}
 
 .nav-container {
   display: flex;
@@ -14,39 +15,47 @@ header {
   height: 92px;
   width: 375px;
   left: 0;
-  top: 0;}
+  top: 0;
+}
 
 .time-network {
   display: flex;
   justify-content: space-between;
-  color: white;}
+  color: white;
+}
 
 .network-only {
   display: flex;  
   list-style-type: none;
-  padding-right: 21px;}
+  padding-right: 21px;
+}
 
 .network-only-item {
-  padding: 2px;}
+  padding: 2px;
+}
 
 h4 {
   height: 16px;
   width: 54px;
   left: 0;
   top: 3px; 
-  padding-left: 25px;}
+  padding-left: 25px;
+}
 
 .name-and-burger {
   display: flex; 
   justify-content: space-between;
-  background-color: #3a3c39;}
+  background-color: #3a3c39;
+}
 
 h2 {
   color: white;
-  padding-left: 18px;}
+  padding-left: 18px;
+}
 
 .burger {
-  padding-right: 29px;}
+  padding-right: 29px;
+}
 
 .home-container {
   display: flex;
@@ -58,14 +67,16 @@ h2 {
   background-image: url(image/Group.svg);
   background-repeat: no-repeat;
   background-position: right bottom 13%;
-  height: 590px;}
+  height: 590px;
+}
 
 .greeting {
   font-size: 56px;
   color: #ff6b00;
   line-height: 64px;
   margin: 0;
-  font-family: "Crete Round";}
+  font-family: "Crete Round";
+}
   
 .job {
   font-size: 24px;
@@ -74,18 +85,23 @@ h2 {
   line-height: 32px;
   margin: 0;
   margin-bottom: 6px;
-  margin-top: 6px;}
+  margin-top: 6px;
+}
   
 .about-me {
+
   font-size: 16px;
   line-height: 24px;
   color: white;
-  margin: 0;}
+  margin: 0;
+}
   
 .social-link-list {
   display: flex;
   padding: 0;
-  margin-top: 22px;}
+  margin-top: 22px;
+}
   
 .social-link-item {
-  margin-left: 23px;}
+  margin-left: 23px;
+}
