@@ -1,12 +1,10 @@
 body {
-  height: 590px;
+  height: fit-content;
   width: 375px;
   left: 0;
   top: 92px;
   border-radius: 0;
   padding: 120px, 24px, 120px, 24px;
-  margin-left: 500px;
-  margin-top: 7%;
 }
 
 .nav-container {
@@ -94,4 +92,282 @@ h2 {
 
 .social-link-item {
   margin-right: 12px;
+}
+
+.react-work {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  height: fit-content;
+}
+
+.button1 {
+  height: 48px;
+  margin-left: 15px;
+  width: 124px;
+  margin-left: 24px;
+  color: white;
+  background-color: #ff6b00;
+  border-radius: 0;
+  border: none;
+}
+
+.title-text {
+  height: 107.00003051757812px;
+  width: 327px;
+  left: 24px;
+  top: 120px;
+  border-radius: 0px;
+  margin-top: 120px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.work {
+  height: 237px;
+  width: 327px;
+  left: 24px;
+  top: 0px;
+  border-radius: 0;
+  margin-top: 120px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.multi {
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-top: 35px;
+}
+
+.pharagraph {
+  margin-left: 24px; 
+  margin-right: 24px;
+  margin-top: 20px; 
+}
+
+.work-choise {
+  display: grid;
+  grid-template-columns: 15% 15% 28% 15%;
+  list-style-type: none;
+  gap: 19px;
+  padding: 24px;
+  padding-right: 5px;
+  padding-top: 6px;
+  padding-bottom: 0;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-rows:  25% 25% 25% 25% 25%;
+  margin-top: 20px;
+  border-radius: 30px;
+
+}
+
+.profesional-react1 {
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  background-image: url(image/Placeholder.svg);
+  background-repeat: no-repeat;
+  width: 327px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.prof1 {
+  height: 81px;
+  width: 295px;
+  left: 16px;
+  top: 8px;
+  border-radius: nullpx;
+  margin-top: 84px;
+}
+
+.text1 {
+  height: 87px;
+  width: 295px;
+  left: 16px;
+  top: 101px;
+  padding: 18px;
+  border-radius: nullpx;
+}
+
+.project-type {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  height: 40px;
+  width: 236px;
+  left: 16px;
+  top: 200px;
+  border-radius: 0;
+}
+
+.html-opacity {
+  opacity: 0.4;
+}
+
+.projects-button {
+  height: 48px;
+  width: 327px;
+  left: 0;
+  top: 0;
+  border-radius: 0;
+  color: white;
+  background-color: #ff6b00;
+  border: none;
+}
+
+.aboutme-contener {
+  background-color: black;
+  height: fit-content;
+  margin-top: 15px;
+  background-image: url(image/com-image.svg);
+  background-position: right bottom 80%;
+  background-repeat: no-repeat;
+}
+
+.aboutme-img {
+  margin-top: 120px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.text-aboutme {
+  margin-top: 24px;
+  color: white;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-bottom: 24px;
+}
+
+.resume-button {
+  height: 48px;
+  padding-left: 10px;
+  width: 161px;
+  border: none;
+  margin-left: 36px;
+  background-color: #ff6b00;
+  color: white;
+  text-align: center;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.line-image {
+  margin-top: 219px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.language {
+  display: inline-flex;
+  margin-top: 136px;
+  margin-left: 36px;
+}
+
+.language > img {
+  margin: 6px;
+}
+
+.languge-list > li{
+  color: white;
+  margin-top: 32px;
+  list-style-type: none;
+  font-size: 22px;
+}
+
+.languge-list-item1 {
+  margin-left: 60px;
+}
+
+.languge-list-item2 {
+  margin-left: 73px;  
+}
+
+.languge-list-item3 {
+  margin-left: 72px;
+}
+
+.languge-list-item4 {
+  margin-left: 76px;
+}
+
+.frameworks {
+  display: inline-flex;
+  margin-top: 44px;
+  margin-left: 36px;
+}
+
+.frameworks > img {
+  margin: 6px;
+}
+
+.frameworks-list > li{
+  color: white;
+  margin-top: 32px;
+  list-style-type: none;
+  font-size: 22px;
+}
+
+.frameworks-list-item1 {
+  margin-left: 70px;
+}
+
+.frameworks-list-item2 {
+  margin-left: 58px;  
+}
+
+.frameworks-list-item3 {
+  margin-left: 73px;
+}
+
+.frameworks-list-item4 {
+  margin-left: 70px;
+}
+
+.frameworks-list-item5 {
+  margin-left: 70px;
+}
+
+.skill {
+  display: inline-flex;
+  margin-top: 44px;
+  margin-left: 76px;
+}
+
+.skill > img {
+  margin: 6px;
+}
+
+.skill-list > li{
+  color: white;
+  margin-top: 32px;
+  list-style-type: none;
+  font-size: 22px;
+}
+
+.skill-list-item1 {
+  margin-left: 79px;
+}
+
+.skill-list-item2 {
+  margin-left: 81px;  
+}
+
+.skill-list-item3 {
+  margin-left: 77px;
+}
+
+.skill-list-item4 {
+  margin-left: 81px;
+}
+
+.skill-list-item5 {
+  margin-left: 76px;
 }
