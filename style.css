@@ -188,11 +188,9 @@ h2 {
   padding-right: 18px;
   border-radius: nullpx;
   color: white;
-  height: 80px;
-  font-family: "Inter, sans-serif";
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 19px;
-  letter-spacing: 0.5px;
   font-style: normal;
   margin-bottom: 12px;
 }
@@ -255,7 +253,7 @@ h2 {
   background-color: #ff6b00;
   color: white;
   text-align: center;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -283,7 +281,7 @@ h2 {
   margin-top: 32px;
   list-style-type: none;
   font-size: 22px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   line-height: 43px;
 }
@@ -319,7 +317,7 @@ h2 {
   margin-top: 32px;
   list-style-type: none;
   font-size: 22px;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
 }
 
 .frameworks-list-item1 {
@@ -357,7 +355,7 @@ h2 {
   margin-top: 32px;
   list-style-type: none;
   font-size: 22px;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
 }
 
 .skill-list-item1 {
