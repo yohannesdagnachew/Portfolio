@@ -1,6 +1,5 @@
 body {
   height: fit-content;
-  width: 375px;
   left: 0;
   top: 92px;
   border-radius: 0;
@@ -95,8 +94,8 @@ h2 {
 }
 
 .react-work {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-rows: 20% 38% 7% 17% 8%;
   align-content: center;
   height: fit-content;
 }
@@ -159,7 +158,7 @@ h2 {
 .wrapper {
   display: grid;
   grid-template-rows: 25% 25% 25% 25% 25%;
-  margin-top: 20px;
+  margin-top: 5px;
   border-radius: 30px;
 }
 
@@ -184,12 +183,18 @@ h2 {
 }
 
 .text1 {
-  height: 87px;
-  width: 295px;
-  left: 16px;
-  top: 101px;
-  padding: 18px;
+  margin-top: 15px;
+  margin-left: 39px;
+  padding-right: 18px;
   border-radius: nullpx;
+  color: white;
+  height: 80px;
+  font-family: "Inter, sans-serif";
+  font-weight: 400;
+  font-size: 19px;
+  letter-spacing: 0.5px;
+  font-style: normal;
+  margin-bottom: 12px;
 }
 
 .project-type {
@@ -278,6 +283,9 @@ h2 {
   margin-top: 32px;
   list-style-type: none;
   font-size: 22px;
+  font-family: 'Inter';
+  font-style: normal;
+  line-height: 43px;
 }
 
 .languge-list-item1 {
@@ -311,6 +319,7 @@ h2 {
   margin-top: 32px;
   list-style-type: none;
   font-size: 22px;
+  font-family: "Inter";
 }
 
 .frameworks-list-item1 {
@@ -348,6 +357,7 @@ h2 {
   margin-top: 32px;
   list-style-type: none;
   font-size: 22px;
+  font-family: "Inter";
 }
 
 .skill-list-item1 {
