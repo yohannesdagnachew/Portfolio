@@ -252,33 +252,64 @@
         </ul>
       </div>
     </div>
-    <form action="index.html">
-      <p class="form-paragraph">
-        I'm always interested in hearing about new projects, so if you'd like to
-        chat please get in touch.
-      </p>
-      <ul class="list">
-        <li>
-          <label for="name">Full Name</label>
-          <input type="text" id="name" name="user_name" />
-          <img src="image/line-image.svg" alt="" />
-        </li>
-        <li>
-          <label for="email">Email Address</label>
-          <input type="email" id="email" name="user_email" required />
-          <img src="image/line.svg" alt="" />
-        </li>
-        <li>
-          <label for="message"></label>
+    <!-- form section -->
+    <form action="https://formspree.io/f/mzbokejq" method="post">
+      <img class="image-form" src="image/Primary-Text.svg" alt="" />
+      <ul class="form-list">
+        <li class="form-name">
+          <label for="name" class="username"></label>
           <input
+            type="text"
+            id="name"
+            name="user_name"
+            maxlength="30"
+            placeholder="Full Name"
+          />
+          <img class="form-name-img" src="image/Container.svg" alt="" />
+        </li>
+        <li class="form-email">
+          <label class="user-email" for="email"></label>
+          <input
+            type="email"
+            id="email"
+            name="user_email"
+            placeholder="Email Adress"
+            required
+          />
+          <img src="image/Container.svg" class="useremail-img" alt="" />
+        </li>
+        <li class="form-message">
+          <label for="message"></label>
+          <textarea
             type="text"
             id="message"
             name="user_message"
             placeholder="Enter text here"
-          />
+            rows="8"
+            cols="37"
+            maxlength="500"
+          ></textarea>
         </li>
       </ul>
       <button class="submit-button" type="submit">Get in touch</button>
+      <img src="image/line.svg" alt="" />
+      <ul class="social-form">
+        <li>
+          <a href=""><img src="image/Vector.svg" alt="" /></a>
+        </li>
+        <li>
+          <a href=""><img src="image/Vector5.svg" alt="" /></a>
+        </li>
+        <li>
+          <a href=""><img src="image/Vector4.png" alt="" /></a>
+        </li>
+        <li>
+          <a href=""><img src="image/vector6.svg" alt="" /></a>
+        </li>
+        <li>
+          <a href=""><img src="image/Vector7.svg" alt="" /></a>
+        </li>
+      </ul>
     </form>
   </body>
 </html>
