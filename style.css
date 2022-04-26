@@ -3,7 +3,7 @@ body {
   left: 0;
   top: 5.75rem;
   border-radius: 0;
-  padding: 7.5rem, 1.5rem, 7.5rem, 1.5re;
+  padding: 7.5rem, 1.5rem, 7.5rem, 1.5rem;
 }
 
 .nav-container {
@@ -146,9 +146,9 @@ h2 {
 
 .work-choise {
   display: grid;
-  grid-template-columns: 15% 15% 28% 15%;
+  grid-template-columns: 14% 14% 23% 14%;
   list-style-type: none;
-  gap: 1.1875rem;
+  gap: 1px;
   padding: 1.5rem;
   padding-right: .3125rem;
   padding-top: .375rem;
