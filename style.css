@@ -377,3 +377,8 @@ h2 {
 .skill-list-item5 {
   margin-left: 76px;
 }
+
+form {
+  display: flex;
+  flex-direction: column;
+}
