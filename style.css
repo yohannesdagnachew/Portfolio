@@ -8,7 +8,7 @@ body {
 
 .nav-container {
   display: flex;
-  background-color: #3A3C39;
+  background-color: #3a3c39;
   height: 3rem;
   width: 100%;
   left: 0;
@@ -58,7 +58,7 @@ h2 {
 
 .greeting {
   font-size: 3.5rem;
-  color: #FF6B00;
+  color: #ff6b00;
   line-height: 4rem;
   margin: 0;
   font-family: “Crete Round”, sans-serif;
@@ -67,7 +67,7 @@ h2 {
 .job {
   font-size: 1.5rem;
   font-weight: 700;
-  color: #FFF5E1;
+  color: #fff5e1;
   line-height: 2rem;
   margin: 0;
   padding: 0;
@@ -105,7 +105,7 @@ h2 {
   width: 7.75rem;
   margin-left: 4.0625rem;
   color: white;
-  background-color: #FF6B00;
+  background-color: #ff6b00;
   border-radius: 0;
   border: none;
 }
@@ -215,7 +215,7 @@ h2 {
   top: 0;
   border-radius: 0;
   color: white;
-  background-color: #FF6B00;
+  background-color: #ff6b00;
   border: none;
 }
 
@@ -254,7 +254,7 @@ h2 {
   width: 10.0625rem;
   border: none;
   margin-left: 2.25rem;
-  background-color: #FF6B00;
+  background-color: #ff6b00;
   color: white;
   text-align: center;
   font-family: “Inter”, sans-serif;
@@ -390,7 +390,7 @@ form {
 }
 
 textarea {
-  background: #FBF8F7;
+  background: #fbf8f7;
 }
 
 .image-form {
@@ -418,7 +418,7 @@ input {
 
 .submit-button {
   color: white;
-  background-color: #FF6B00;
+  background-color: #ff6b00;
   height: 48px;
   border: none;
   width: 131px;
@@ -429,7 +429,7 @@ input {
 .social-form {
   display: flex;
   list-style-type: none;
-  color: #505F79;
+  color: #505f79;
   margin-left: 60px;
 }
 
