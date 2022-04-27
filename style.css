@@ -417,3 +417,7 @@ form {
 .social-form > li {
   margin: 10px;
 }
+
+.input { 
+  border: 0px;
+}
