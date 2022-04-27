@@ -384,6 +384,10 @@ form {
   margin-top: 120px;
 }
 
+textarea {
+  background: #fbf8f7;
+}
+
 .image-form {
   margin-right: 25px;
 }
