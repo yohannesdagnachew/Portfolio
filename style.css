@@ -385,8 +385,8 @@ h2 {
 form {
   display: flex;
   flex-direction: column;
-  align-items: center;
   margin-top: 120px;
+  justify-content: center;
 }
 
 textarea {
@@ -394,7 +394,8 @@ textarea {
 }
 
 .image-form {
-  margin-right: 25px;
+  align-content: center;
+  margin: auto;
 }
 
 .form-list {
@@ -402,7 +403,7 @@ textarea {
   flex-direction: column;
   list-style-type: none;
   align-content: center;
-  margin-left: 24px;
+  margin-left: 45px;
 }
 
 .form-list > li {
@@ -411,6 +412,7 @@ textarea {
 
 input {
   border: 0;
+  outline: none;
 }
 
 .submit-button {
@@ -420,13 +422,14 @@ input {
   border: none;
   width: 131px;
   margin-bottom: 45px;
+  margin-left: 150px;
 }
 
 .social-form {
   display: flex;
   list-style-type: none;
   color: #505f79;
-  margin-left: 0;
+  margin-left: 100px;
 }
 
 .social-form > li {
