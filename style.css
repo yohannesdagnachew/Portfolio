@@ -10,7 +10,7 @@ body {
   display: flex;
   background-color: #3a3c39;
   height: 3rem;
-  width: 23.4375rem;
+  width: 100%;
   left: 0;
   top: 2.75rem;
   border-radius: 0;
@@ -103,7 +103,7 @@ h2 {
 .button1 {
   height: 3rem;
   width: 7.75rem;
-  margin-left: 1.5rem;
+  margin-left: 4.0625rem;
   color: white;
   background-color: #ff6b00;
   border-radius: 0;
@@ -117,7 +117,7 @@ h2 {
   top: 7.5rem;
   border-radius: 0;
   margin-top: 7.5rem;
-  margin-left: 1.5rem;
+  margin-left: 4.0625rem;
   margin-right: 1.5rem;
 }
 
@@ -128,31 +128,29 @@ h2 {
   top: 0;
   border-radius: 0;
   margin-top: 7.5rem;
-  margin-left: 1.5rem;
+  margin-left: 4.0625rem;
   margin-right: 1.5rem;
 }
 
 .multi {
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
+  margin-left: 4.0625rem;
   margin-top: 2.1875rem;
 }
 
 .pharagraph {
-  margin-left: 1.5rem;
+  margin-left: 4.0625rem;
   margin-right: 1.5rem;
   margin-top: 1.25rem;
 }
 
 .work-choise {
   display: grid;
-  grid-template-columns: 14% 14% 23% 14%;
+  grid-template-columns: 17% 17% 26% 17%;
   list-style-type: none;
   gap: 1px;
-  padding: 1.5rem;
-  padding-right: .3125rem;
   padding-top: .375rem;
   padding-bottom: 0;
+  margin-left: 1.625rem;
 }
 
 .wrapper {
@@ -169,7 +167,7 @@ h2 {
   background-image: url(image/Placeholder.svg);
   background-repeat: no-repeat;
   width: 20.4375rem;
-  margin-left: 1.25rem;
+  margin-left: 4.0625rem;
   margin-top: 1.25rem;
 }
 
@@ -413,6 +411,7 @@ form {
 .social-form {
   display: flex;
   list-style-type: none;
+  color: #505f79;
 }
 
 .social-form > li {
