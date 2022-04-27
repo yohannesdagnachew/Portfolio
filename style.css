@@ -19,10 +19,10 @@ body {
 .burger {
   height: 0.75rem;
   width: 1.125rem;
-  left: .1875rem;
+  left: 0.1875rem;
   padding-right: 1.8125rem;
   top: 0.375rem;
-  margin-top: .75rem;
+  margin-top: 0.75rem;
   margin-right: 1.0625rem;
   margin-bottom: 1.1875rem;
   border-radius: 0;
@@ -35,7 +35,7 @@ body {
   top: 2.75rem;
   border-radius: 0;
   margin-left: 1.5rem;
-  margin-top: .375rem;
+  margin-top: 0.375rem;
 }
 
 h2 {
@@ -71,8 +71,8 @@ h2 {
   line-height: 2rem;
   margin: 0;
   padding: 0;
-  margin-bottom: .375rem;
-  margin-top: .375rem;
+  margin-bottom: 0.375rem;
+  margin-top: 0.375rem;
 }
 
 .about-me {
@@ -90,7 +90,7 @@ h2 {
 }
 
 .social-link-item {
-  margin-right: .75rem;
+  margin-right: 0.75rem;
 }
 
 .react-work {
@@ -148,7 +148,7 @@ h2 {
   grid-template-columns: 17% 17% 26% 17%;
   list-style-type: none;
   gap: 1px;
-  padding-top: .375rem;
+  padding-top: 0.375rem;
   padding-bottom: 0;
   margin-left: 1.625rem;
 }
@@ -156,7 +156,7 @@ h2 {
 .wrapper {
   display: grid;
   grid-template-rows: 25% 25% 25% 25% 25%;
-  margin-top: .3125rem;
+  margin-top: 0.3125rem;
   border-radius: 1.875rem;
 }
 
@@ -175,7 +175,7 @@ h2 {
   height: 5.0625rem;
   width: 18.4375rem;
   left: 1rem;
-  top: .5rem;
+  top: 0.5rem;
   border-radius: nullpx;
   margin-top: 5.25rem;
 }
