@@ -773,6 +773,7 @@ color: #091e42;
   height: 27.1875rem;
   width: 22rem;
 }
+
 .aboutme-contener {
   background-color: #262626;
   background-image: url("image/back-d.png");
@@ -959,7 +960,7 @@ input {
 }
 
 .footer-line-desktop {
- height: 0.1875rem;
+  height: 0.1875rem;
 }
 
 .social-form {
