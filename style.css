@@ -579,6 +579,10 @@
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    background-image: url("image/line-disctop.png");
+    background-size: 65% 1.5%;
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
   }
 
   .text-title {
@@ -594,14 +598,16 @@
     line-height: 3.25rem;
     align-items: center;
     color: #091e42;
+    padding-right: 0.3125rem;
   }
 
   .title-line {
     position: static;
     height: 0.0625rem;
     left: 21.1875rem;
-    width: 46.25rem;
+    width: 48.125rem;
     align-items: center;
+    display: none;
   }
 
   .stories {
