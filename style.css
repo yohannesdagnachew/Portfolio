@@ -66,8 +66,7 @@
     color: #ff6b00;
     line-height: 4rem;
     margin: 0;
-    font-family: “Crete Round”, "Lucida Sans", "Lucida Sans Regular",
-      "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-family: “Crete Round”, sans-serif;
   }
 
   .job {
@@ -200,8 +199,7 @@
     padding-right: 1.125rem;
     border-radius: nullpx;
     color: white;
-    font-family: “Inter”, "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-family: “Inter”, "Lucida Sans", sans-serif;
     font-weight: 400;
     font-size: 1.1875rem;
     font-style: normal;
@@ -256,8 +254,7 @@
     margin-left: 1.5rem;
     margin-right: 1.5rem;
     margin-bottom: 1.5rem;
-    font-family: ‘Inter’, "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-family: ‘Inter’, "Lucida Sans", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -273,8 +270,7 @@
     background-color: #ff6b00;
     color: white;
     text-align: center;
-    font-family: “Inter”, "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-family: “Inter”, "Lucida Sans", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 1.0625rem;
@@ -306,8 +302,7 @@
     margin-top: 2rem;
     list-style-type: none;
     font-size: 1.375rem;
-    font-family: ‘Inter’, "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-family: ‘Inter’, "Lucida Sans", sans-serif;
     font-style: normal;
     line-height: 2.6875rem;
   }
@@ -343,8 +338,7 @@
     margin-top: 2rem;
     list-style-type: none;
     font-size: 1.375rem;
-    font-family: “Inter”, "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-family: “Inter”, "Lucida Sans", sans-serif;
   }
 
   .frameworks-list-item1 {
@@ -382,8 +376,7 @@
     margin-top: 2rem;
     list-style-type: none;
     font-size: 1.375rem;
-    font-family: “Inter”, "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-family: “Inter”, sans-serif;
   }
 
   .skill-list-item1 {
@@ -517,8 +510,7 @@
 
   .greeting {
     color: #ff6b00;
-    font-family: “Crete Round”, "Lucida Sans", "Lucida Sans Regular",
-      "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-family: “Crete Round”, sans-serif;
     position: static;
     width: 566px;
     height: 160px;
@@ -538,8 +530,7 @@
     height: 1.5rem;
     top: 23.5rem;
     margin-left: 8.9375rem;
-    font-family: "Inter", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-family: "Inter", sans-serif;
   }
 
   .about-me {
@@ -595,8 +586,7 @@
     height: 3.25rem;
     left: 0;
     top: 0;
-    font-family: "Crete Round", "Lucida Sans", "Lucida Sans Regular",
-      "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-family: "Crete Round", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 2.5rem;
@@ -687,8 +677,7 @@
     margin-top: 23.5625rem;
     border: none;
     color: white;
-    font-family: "Inter", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
@@ -707,8 +696,7 @@
     position: static;
     width: 21.0625rem;
     height: 5.0625rem;
-    font-family: "Crete Round", "Lucida Sans", "Lucida Sans Regular",
-      "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-family: "Crete Round", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 2rem;
@@ -723,8 +711,7 @@
     width: 20.625rem;
     height: 4.5rem;
     margin-left: 0.8125rem;
-    font-family: "Inter", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 1.05rem;
@@ -755,8 +742,7 @@
     position: static;
     width: 21.0625rem;
     height: 5.0625rem;
-    font-family: "Crete Round", "Lucida Sans", "Lucida Sans Regular",
-      "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-family: "Crete Round", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 2rem;
@@ -772,8 +758,7 @@
     width: 20.625rem;
     height: 4.5rem;
     margin-left: 0.8125rem;
-    font-family: "Inter", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 1.05rem;
@@ -814,8 +799,7 @@
     position: static;
     width: 35.375rem;
     height: 9.25rem;
-    font-family: "Inter", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 1.25rem;
@@ -827,8 +811,7 @@
     position: static;
     width: 10.0625rem;
     height: 3rem;
-    font-family: "Inter", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 700;
     color: #fff;
     background-color: #ff6b00;
@@ -859,8 +842,7 @@
     position: static;
     width: 7.125rem;
     height: 1.5rem;
-    font-family: "Inter", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
@@ -879,8 +861,7 @@
     position: static;
     width: 10.125rem;
     height: 1.5rem;
-    font-family: "Inter", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
@@ -898,8 +879,7 @@
     list-style-type: none;
     width: 114px;
     height: 24px;
-    font-family: "Inter", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
