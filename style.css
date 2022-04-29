@@ -522,7 +522,7 @@
     position: static;
     width: 566px;
     height: 160px;
-    left: 0px;
+    left: 0;
     top: 12rem;
     font-weight: 400;
     font-size: 4.5rem;
@@ -830,7 +830,7 @@
     font-family: "Inter", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
       "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     font-weight: 700;
-    color: #ffffff;
+    color: #fff;
     background-color: #ff6b00;
     border: none;
     margin-bottom: 9.625rem;
@@ -854,7 +854,7 @@
 
   .languge-list {
     margin-left: 10rem;
-    color: #ffffff;
+    color: #fff;
     list-style-type: none;
     position: static;
     width: 7.125rem;
@@ -874,7 +874,7 @@
 
   .frameworks-list {
     margin-left: 34.875rem;
-    color: #ffffff;
+    color: #fff;
     list-style-type: none;
     position: static;
     width: 10.125rem;
@@ -894,7 +894,7 @@
 
   .skill-list {
     margin-left: 62.1875rem;
-    color: #ffffff;
+    color: #fff;
     list-style-type: none;
     width: 114px;
     height: 24px;
