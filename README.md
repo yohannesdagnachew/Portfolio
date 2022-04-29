@@ -2,15 +2,19 @@
 
 # Project Name
 
-Portfolio-mobile
+Portfolio
 
 >
 
 ## Built With
 
--Project at Microverse Portfolio-mobile
+-Major languages
+-HTML
+-CSS
 
 ## Authors
+
+Yohannes Daganchew
 
 👤 **Author1**
 
@@ -31,8 +35,11 @@ Give a ⭐️ if you like this project!
 
 - Microverse team
 - My Family
+- CrystallineButterfly
 - etc
 
 ## 📝 License
 
 None
+
+##
