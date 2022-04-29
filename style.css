@@ -1,3 +1,4 @@
+@media (max-width: 768px) {
 body {
   height: fit-content;
   left: 0;
@@ -14,6 +15,10 @@ body {
   left: 0;
   top: 2.75rem;
   border-radius: 0;
+}
+
+.shortcut {
+  display: none;
 }
 
 .burger {
@@ -46,7 +51,7 @@ h2 {
 .home-container {
   display: flex;
   padding-top: 7.5rem;
-  background-color: black;
+  background-color: #262626;
   flex-direction: column;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -61,7 +66,7 @@ h2 {
   color: #ff6b00;
   line-height: 4rem;
   margin: 0;
-  font-family: “Crete Round”, sans-serif;
+  font-family: “Crete Round”, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .job {
@@ -98,6 +103,10 @@ h2 {
   grid-template-rows: 20% 38% 7% 17% 8%;
   align-content: center;
   height: fit-content;
+}
+
+.react-work-desktop {
+  display: none;
 }
 
 .button1 {
@@ -160,6 +169,10 @@ h2 {
   border-radius: 1.875rem;
 }
 
+.wrapper-desktop {
+  display: none;
+}
+
 .profesional-react1 {
   height: fit-content;
   display: flex;
@@ -186,7 +199,7 @@ h2 {
   padding-right: 1.125rem;
   border-radius: nullpx;
   color: white;
-  font-family: “Inter”, sans-serif;
+  font-family: “Inter”, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-weight: 400;
   font-size: 1.1875rem;
   font-style: normal;
@@ -220,7 +233,7 @@ h2 {
 }
 
 .aboutme-contener {
-  background-color: black;
+  background-color: #262626;
   height: 2000px;
   margin-top: 0.9375rem;
   background-image: url(image/com-image.svg);
@@ -241,7 +254,7 @@ h2 {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
   margin-bottom: 1.5rem;
-  font-family: ‘Inter’, sans-serif;
+  font-family: ‘Inter’, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -257,7 +270,7 @@ h2 {
   background-color: #ff6b00;
   color: white;
   text-align: center;
-  font-family: “Inter”, sans-serif;
+  font-family: “Inter”, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 1.0625rem;
@@ -268,6 +281,10 @@ h2 {
   margin-top: 13.6875rem;
   margin-left: 1.5rem;
   margin-right: 1.5rem;
+}
+
+.line-image2 {
+  display: none;
 }
 
 .language {
@@ -285,7 +302,7 @@ h2 {
   margin-top: 2rem;
   list-style-type: none;
   font-size: 1.375rem;
-  font-family: ‘Inter’, sans-serif;
+  font-family: ‘Inter’, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-style: normal;
   line-height: 2.6875rem;
 }
@@ -321,7 +338,7 @@ h2 {
   margin-top: 2rem;
   list-style-type: none;
   font-size: 1.375rem;
-  font-family: “Inter”, sans-serif;
+  font-family: “Inter”, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .frameworks-list-item1 {
@@ -359,7 +376,7 @@ h2 {
   margin-top: 2rem;
   list-style-type: none;
   font-size: 1.375rem;
-  font-family: “Inter”, sans-serif;
+  font-family: “Inter”, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .skill-list-item1 {
@@ -434,5 +451,529 @@ input {
 }
 
 .social-form > li {
-  margin: 10px;
+  margin: 10px;  
+}
+
+.footer-line-desktop {
+  display: none;
+}
+
+}
+
+/* Desctop */
+
+@media only screen and (min-width: 768px) {
+
+body {
+
+}
+
+.nav-container {
+  background-color: #3a3c39;
+  display: flex;
+  justify-content: space-between;
+}
+
+.burger {
+  display: none;
+}
+
+.name {
+  margin-left: 9.625rem;
+}
+
+.shortcut-contener {
+  margin-right: 12.875rem;
+  align-self: center;
+}
+
+.shortcut-mail {
+  margin-bottom: -0.5625rem;
+}
+
+.shortcut {
+  margin-right: 2rem;
+  color: white;
+  text-decoration: none;
+}
+
+.home-container {
+  background-color: #262626;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: start;
+  background-image: url("image/biggroup.png");
+  background-position: right 0% top 0%;
+  background-repeat: no-repeat;
+  background-size: 31.25rem;
+  height: 49.875rem;
+}
+
+.home-container-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.greeting {
+  color: #ff6b00;
+  font-family: “Crete Round”, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  position: static;
+  width: 566px;
+  height: 160px;
+  left: 0px;
+  top: 12rem;
+  font-weight: 400;
+  font-size: 4.5rem;
+  line-height: 5.125rem;
+  margin-left: 8.9375rem;
+}
+
+.job {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff5e1;
+  width: 35.375rem;
+  height: 1.5rem;
+  top: 23.5rem;
+  margin-left: 8.9375rem;
+  font-family: 'Inter', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.about-me {
+  position: static;
+  width: 35.375rem;
+  height: 7.6875rem;
+  left: 0;
+  top: 26.5rem;
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 2rem;
+  color: #f4f5f7;
+  margin-left: 8.9375rem;
+}
+
+.social-link-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.social-link-item {
+  margin-bottom: 10px;
+}
+
+.react-work {
+  display: none;
+}
+
+.react-work-desktop {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin: 0.8125rem 8.9375rem 8.125rem;
+  height: 90rem;
+  background-image: url("image/react-desktop.png");
+  background-repeat: no-repeat;
+  background-size: 52% 28rem;
+  background-position: 0% 13%;
+}
+
+.home-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.text-title {
+  position: static;
+  width: 19.6875rem;
+  height: 3.25rem;
+  left: 0;
+  top: 0;
+  font-family: 'Crete Round', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.5rem;
+  line-height: 3.25rem;
+  align-items: center;
+  color: #091e42;
+}
+
+.title-line {
+  position: static;
+  height: .0625rem;
+  left: 21.1875rem;
+  width: 46.25rem;
+  align-items: center;
+}
+
+.stories {
+  height: 28rem;
+  margin-left: 34.375rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.multi-desktop {
+  height: 3rem;
+  width: 28rem;
+  left: 0;
+  top: 0;
+  margin-left: 3.125rem;
+}
+
+.pharagraph-desktop {
+  height: 8.75rem;
+  width: 28rem;
+  margin-left: 3.125rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.work-choise-desktop {
+  display: flex;
+  list-style-type: none;
+  justify-content: flex-start;
+  margin-bottom: 1.5rem;
+}
+
+.choise-d {
+margin-left: 0.625rem;
+color: #091e42;
+}
+
+.button1-d {
+  margin-left: 3.125rem;
+  height: 3rem;
+  width: 7.75rem;
+  color: white;
+  background-color: #ff6b00;
+  border: none;
+}
+
+.wrapper {
+  display: none;
+}
+
+.profesional-react1 {
+  display: none;
+}
+
+.wrapper-desktop {
+  display: grid;
+  grid-template-columns: repeat(3, 23.0625rem);
+  margin-top: 9.375rem;
+  grid-row-gap: 1.875rem;
+}
+
+.pro-work1 {
+  background-image: url("image/pro1.png");
+  height: 27.1875rem;
+  width: 22rem;
+  background-color: black;
+}
+
+.projects-button-desktop {
+  background-color: #ff6b00;
+  width: 22rem;
+  height: 3.625rem;
+  margin-top: 23.5625rem;
+  border: none;
+  color: white;
+  font-family: 'Inter', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.pro-work2 {
+  background-image: url("image/pro2.png");
+  height: 27.1875rem;
+  width: 22rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.dashboard {
+  position: static;
+  width: 21.0625rem;
+  height: 5.0625rem;
+  font-family: 'Crete Round', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2.75rem;
+  color: white;
+  margin-top: 50%;
+  margin-left: .8125rem;
+}
+
+.dashboard-pharagraph {
+  position: static;
+  width: 20.625rem;
+  height: 4.5rem;
+  margin-left: 0.8125rem;
+  font-family: 'Inter', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.05rem;
+  line-height: 1.5rem;
+  color: white;
+  margin-top: 0;
+}
+
+.dashboard-list {
+  list-style-type: none;
+  display: flex;
+  margin-top: 0;
+  opacity: 1;
+  margin-left: -1.6875rem;
+}
+
+.dashbord-list-item {
+  margin-right: 0.625rem;
+}
+
+.pro-work3 {
+  background-image: url("image/pro3.png");
+  height: 27.1875rem;
+  width: 22rem;
+}
+
+.website-portfolio {
+  position: static;
+  width: 21.0625rem;
+  height: 5.0625rem;
+  font-family: 'Crete Round', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2.75rem;
+  color: white;
+  margin-top: 58%;
+  margin-left: .8125rem;
+}
+
+.website-portfolio-pharagraph {
+  color: white;
+  position: static;
+  width: 20.625rem;
+  height: 4.5rem;
+  margin-left: 0.8125rem;
+  font-family: 'Inter', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.05rem;
+  line-height: 1.5rem;
+  margin-top: -1.75rem;
+}
+
+.pro-work4 {
+  background-image: url("image/pro11.png");
+  height: 27.1875rem;
+  width: 22rem;
+}
+.aboutme-contener {
+  background-color: #262626;
+  background-image: url("image/back-d.png");
+  background-repeat: no-repeat;
+  background-position: right 16%;
+  background-size: 35% 35%;
+  height: 62.5rem;
+}
+
+/* About Me */
+
+.aboutme-desktop {
+  display: flex;
+  flex-direction: column;
+  margin-left: 8.9375rem;
+  width: 30%;
+}
+
+.aboutme-img {
+  width: 12.5rem;
+  margin-top: 8.25rem;
+}
+
+.text-aboutme {
+  position: static;
+  width: 35.375rem;
+  height: 9.25rem;
+  font-family: 'Inter', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 2rem;
+  color: #f4f5f7;
+}
+
+.resume-button {
+  position: static;
+  width: 10.0625rem;
+  height: 3rem;
+  font-family: 'Inter', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #ff6b00;
+  border: none;
+  margin-bottom: 9.625rem;
+}
+
+.line-image {
+  display: none;
+}
+
+.line-image2 {
+  width: 72.25rem;
+  margin-left: 5.3125rem;
+  height: 0.5625rem;
+  color: #505f79;
+  margin-bottom: 7.5rem;
+}
+
+.language {
+  margin-left: 12.125rem;
+}
+
+.languge-list {
+  margin-left: 10rem;
+  color: #ffffff;
+  list-style-type: none;
+  position: static;
+  width: 7.125rem;
+  height: 1.5rem;
+  font-family: 'Inter', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 2.6875rem
+}
+
+.frameworks {
+   margin-left: 37.125rem;
+   margin-top: -6.875rem;
+}
+
+.frameworks-list {
+  margin-left: 34.875rem;
+  color: #ffffff;
+  list-style-type: none;
+  position: static;
+  width: 10.125rem;
+  height: 1.5rem;
+  font-family: 'Inter', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 2.6875rem;
+}
+
+.skill {
+  margin-left: 64.25rem;
+   margin-top: -5.625rem;
+}
+
+.skill-list {
+  margin-left: 62.1875rem;
+  color: #ffffff;
+  list-style-type: none;
+  width: 114px;
+  height: 24px;
+  font-family: 'Inter', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  margin-bottom: 18.75rem;
+  background-color: #262626;
+}
+
+/* Form */
+form {
+  background-image: url("image/formimagedesctop.png");
+  background-repeat: no-repeat;
+  background-position: 11% 0%;
+  background-size: 35% 50%;
+}
+
+.form-list {
+  display: flex;
+  flex-direction: column;
+  margin-left: 39.375rem;
+  margin-top: 8.25rem;
+  width: 32rem;
+  list-style-type: none;
+  height: 8.4375rem; 
+}
+
+.form-name {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3.375rem;
+}
+
+.form-name-img {
+  margin-top: 0.9375rem;
+}
+
+input {
+  outline: none;
+  border: none;
+}
+
+.form-email {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3.375rem;
+}
+
+.useremail-img {
+  margin-top: 0.9375rem;
+}
+
+.text-area {
+  width: 32rem;
+  background: #fbf8f7;
+  border: none;
+  outline: none;
+}
+
+.submit-button {
+  margin-left: 41.9375rem;
+  margin-top: 10.9375rem;
+  height: 3rem;
+  background-color: #ff6b00;
+  color: #f4f5f7;
+  border: none;
+  width: 7.625rem;
+  margin-bottom: 10.375rem;
+}
+
+.image-form {
+  display: none;
+}
+
+.footer-line {
+  display: none;
+}
+
+.footer-line-desktop {
+ height: 0.1875rem;
+}
+
+.social-form {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+}
+
+.social-form-item {
+  margin-right: 1.3125rem;
+}
+
 }
