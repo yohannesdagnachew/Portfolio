@@ -10,7 +10,7 @@
     display: flex;
     background-color: #3a3c39;
     height: 3rem;
-    width: 31.25rem;
+    width: 29.75rem;
     left: 0;
     top: 2.75rem;
     border-radius: 0;
@@ -58,9 +58,9 @@
     flex-direction: column;
     background-image: url(image/Group.svg);
     background-repeat: no-repeat;
-    background-position: right bottom 13%;
+    background-position: right bottom 5%;
     height: 36.875rem;
-    width: 31.25rem;
+    width: 29.75rem;
   }
 
   .greeting {
@@ -243,7 +243,7 @@
     background-position: right bottom 82.5%;
     background-repeat: no-repeat;
     border-left: 3.75rem;
-    width: 31.25rem;
+    width: 29.75rem;
   }
 
   .aboutme-img {
