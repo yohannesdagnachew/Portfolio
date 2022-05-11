@@ -34,14 +34,13 @@ a {
 }
 
 .nav-item {
-  margin-left: 5rem;
+  margin-left: 0;
 }
 
 .nav-links {
   font-size: 1.25rem;
   font-weight: 400;
   color: white;
-  padding-right: 1.0625rem;
 }
 
 .nav-links:hover {
@@ -65,6 +64,7 @@ a {
     padding-right: 18.75rem;
     font-size: 2rem;
     color: #fff5e1;
+    font-weight: 700;
   }
 
   .nav-logo {
@@ -83,15 +83,15 @@ a {
 
   .nav-menu {
     position: fixed;
-    right: -110%;
+    left: -1100%;
     top: 5rem;
     flex-direction: column;
-    background-color: #262626;
     width: 100%;
     text-align: center;
     transition: 0.3s;
     box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
     margin-left: 20px;
+    background-color: #3c3a39;
   }
 
   .email-icon {
@@ -99,24 +99,24 @@ a {
   }
 
   .nav-menu.active {
-    right: 0;
+    left: 0;
     padding-left: 0.75rem;
     height: 43.75rem;
-    gap: 0.625rem;
-    width: 29.6875rem;
+    width: 469px;
     display: flex;
     flex-direction: column;
     justify-content: start;
   }
 
   .nav-item {
-    margin: 20px 0;
+    margin-top: 20px;
   }
 
   .hamburger {
     display: block;
     cursor: pointer;
     padding-right: 1.5rem;
+    color: red;
   }
 
   .hamburger.active .bar:nth-child(2) {
@@ -131,15 +131,35 @@ a {
     transform: translateY(-8px) rotate(-45deg);
   }
 
+  span {
+    color: #ff6b00;
+  }
+
+  .nav-logo.active {
+    color: #252f8914;
+  }
+
+  .home-container-item.active {
+    display: none;
+  }
+
   h2 {
     color: black;
     padding-left: 1.125rem;
   }
 
+  .about-t {
+    margin-left: -20px;
+  }
+
+  .port {
+    margin-right: -1.875rem;
+  }
+
   .home-container {
     display: flex;
     padding-top: 7.5rem;
-    background-color: #262626;
+    background-color: #3c3a39;
     flex-direction: column;
     background-image: url(image/Group.svg);
     background-repeat: no-repeat;
