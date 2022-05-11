@@ -1,66 +1,170 @@
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #3e3c3c;
+}
+
+.hamburger {
+  display: none;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: white;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-item {
+  margin-left: 0;
+}
+
+.nav-links {
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: white;
+}
+
+.nav-links:hover {
+  color: dodgerblue;
+}
+
+.nav-logo {
+  font-size: 1.875rem;
+  font-weight: 500;
+  color: white;
+  margin-left: 12.5rem;
+}
+
 @media (max-width: 768px) {
-  body {
-    height: fit-content;
-    left: 0;
-    top: 5.75rem;
-    border-radius: 0;
+  .navbar {
+    background: #3e3c3c;
+    width: 30.8125rem;
   }
 
-  .nav-container {
-    display: flex;
-    background-color: #3a3c39;
-    height: 3rem;
-    width: 29.75rem;
-    left: 0;
-    top: 2.75rem;
-    border-radius: 0;
+  .nav-links {
+    padding-right: 18.75rem;
+    font-size: 2rem;
+    color: #fff5e1;
+    font-weight: 700;
   }
 
-  .shortcut {
-    display: none;
-  }
-
-  .shortcut-mail {
-    display: none;
-  }
-
-  .burger {
-    height: 0.75rem;
-    width: 1.125rem;
-    left: 0.1875rem;
-    padding-right: 1.8125rem;
-    top: 0.375rem;
-    margin-top: 0.75rem;
-    margin-right: 1.0625rem;
-    margin-bottom: 1.1875rem;
-    border-radius: 0;
-  }
-
-  .name {
-    height: 18.75rem;
-    width: 23.4375rem;
-    left: 0;
-    top: 2.75rem;
-    border-radius: 0;
+  .nav-logo {
+    font-size: 1.875rem;
+    font-weight: 500;
+    color: white;
     margin-left: 1.5rem;
-    margin-top: 0.375rem;
+  }
+
+  hr {
+    width: 28.125rem;
+    border-top: 0 solid gray;
+    margin-right: 1.25rem;
+  }
+
+  .nav-menu {
+    position: fixed;
+    left: -1100%;
+    top: 5rem;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+    margin-left: 20px;
+    background-color: #3c3a39;
+  }
+
+  .email-icon {
+    display: none;
+  }
+
+  .nav-menu.active {
+    left: 0;
+    padding-left: 0.75rem;
+    height: 43.75rem;
+    width: 469px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+
+  .nav-item {
+    margin-top: 20px;
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+    padding-right: 1.5rem;
+    color: red;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  span {
+    color: #ff6b00;
+  }
+
+  .nav-logo.active {
+    color: #252f8914;
+  }
+
+  .home-container-item.active {
+    display: none;
   }
 
   h2 {
-    color: white;
+    color: black;
     padding-left: 1.125rem;
+  }
+
+  .about-t {
+    margin-left: -20px;
+  }
+
+  .port {
+    margin-right: -1.875rem;
   }
 
   .home-container {
     display: flex;
     padding-top: 7.5rem;
-    background-color: #262626;
+    background-color: #3c3a39;
     flex-direction: column;
     background-image: url(image/Group.svg);
     background-repeat: no-repeat;
     background-position: right bottom 5%;
     height: 36.875rem;
-    width: 29.75rem;
+    width: 30.8125rem;
   }
 
   .greeting {
@@ -105,7 +209,7 @@
     display: grid;
     grid-template-rows: 20% 38% 7% 17% 8%;
     align-content: center;
-    height: fit-content;
+    height: 62.5rem;
   }
 
   .react-work-desktop {
@@ -118,7 +222,6 @@
     margin-left: 4.0625rem;
     color: white;
     background-color: #ff6b00;
-    border-radius: 0;
     border: none;
   }
 
@@ -127,7 +230,6 @@
     width: 20.4375rem;
     left: 1.5rem;
     top: 7.5rem;
-    border-radius: 0;
     margin-top: 7.5rem;
     margin-left: 4.0625rem;
     margin-right: 1.5rem;
@@ -138,7 +240,6 @@
     width: 20.4375rem;
     left: 1.5rem;
     top: 0;
-    border-radius: 0;
     margin-top: 7.5rem;
     margin-left: 4.0625rem;
     margin-right: 1.5rem;
@@ -153,6 +254,16 @@
     margin-left: 4.0625rem;
     margin-right: 1.5rem;
     margin-top: 1.25rem;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #091e42;
+    width: 327px;
+    height: 147px;
+    left: 0;
+    top: 48px;
   }
 
   .work-choise {
@@ -177,7 +288,7 @@
   }
 
   .profesional-react1 {
-    height: fit-content;
+    height: 26.875rem;
     display: flex;
     flex-direction: column;
     background-image: url(image/Placeholder.svg);
@@ -192,7 +303,6 @@
     width: 18.4375rem;
     left: 1rem;
     top: 0.5rem;
-    border-radius: nullpx;
     margin-top: 5.25rem;
   }
 
@@ -200,7 +310,6 @@
     margin-top: 0.9375rem;
     margin-left: 2.4375rem;
     padding-right: 1.125rem;
-    border-radius: nullpx;
     color: white;
     font-family: “Inter”, "Lucida Sans", sans-serif;
     font-weight: 400;
@@ -463,36 +572,11 @@
   }
 }
 
-/* Desctop */
+/* Desktop */
 
-@media only screen and (min-width: 768px) {
-  .nav-container {
-    background-color: #3a3c39;
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .burger {
+@media only screen and (min-width: 776px) {
+  hr {
     display: none;
-  }
-
-  .name {
-    margin-left: 9.625rem;
-  }
-
-  .shortcut-contener {
-    margin-right: 12.875rem;
-    align-self: center;
-  }
-
-  .shortcut-mail {
-    margin-bottom: -0.5625rem;
-  }
-
-  .shortcut {
-    margin-right: 2rem;
-    color: white;
-    text-decoration: none;
   }
 
   .home-container {
@@ -837,7 +921,7 @@
   .line-image2 {
     width: 72.25rem;
     margin-left: 5.3125rem;
-    height: 0.5625rem;
+    height: 9px;
     color: #505f79;
     margin-bottom: 7.5rem;
   }
@@ -899,7 +983,8 @@
     background-color: #262626;
   }
 
-  /* Form */
+  /* Form section */
+
   form {
     background-image: url("image/formimagedesctop.png");
     background-repeat: no-repeat;
