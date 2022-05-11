@@ -75,9 +75,8 @@ a {
   }
 
   hr {
-    color: gray;
     width: 28.125rem;
-    background-color: gray;
+    border-top: 0px solid gray;
     margin-right: 1.25rem;
   }
 
