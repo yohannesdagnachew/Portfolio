@@ -17,17 +17,37 @@
   </head>
   <body>
     <header>
-      <nav class="nav-container">
-        <a href="#" class="name"><img src="image/joe.svg" alt="" /></a>
-        <div class="shortcut-contener">
-          <a class="shortcut" href="">Portfolio</a>
-          <a class="shortcut" href="">About</a>
-          <a class="shortcut" href="">Contact</a>
-          <a href=""
-            ><img class="shortcut-mail" src="image/Icon-Mail.svg" alt=""
-          /></a>
+      <nav class="navbar">
+        <a class="nav-logo" href="#">John Dagn</a>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="#profesional-react1" class="nav-links">Portfolio</a>
+            <hr />
+          </li>
+
+          <li class="nav-item">
+            <a href="#aboutme-contener" class="nav-links">About</a>
+            <hr />
+          </li>
+
+          <li class="nav-item">
+            <a href="#contact" class="nav-links">Contact</a>
+            <hr />
+          </li>
+
+          <li class="nav-item">
+            <img
+              class="nav-links email-icon"
+              src="image/Icon-Mail.svg"
+              alt=""
+            />
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
         </div>
-        <a href="#" class="burger"><img src="image/Union.svg" alt="none" /></a>
       </nav>
     </header>
     <section class="home-container">
@@ -45,228 +65,238 @@
       </div>
       <ul class="social-link-list">
         <li class="social-link-item">
-          <a href="#"><img src="image/Vector.svg" alt="" /></a>
+          <a href="#"><img src="image/Vector.svg" alt="github icon" /></a>
         </li>
         <li class="social-link-item">
-          <a href="#"><img src="image/Vector5.svg" alt="" /></a>
+          <a href="#"><img src="image/Vector5.svg" alt="Medium icon" /></a>
         </li>
         <li class="social-link-item">
-          <a href="#"><img src="image/Vector4.png" alt="" /></a>
+          <a href="#"><img src="image/Vector4.png" alt="Angle list icon" /></a>
         </li>
         <li class="social-link-item">
-          <a href="#"><img src="image/vector6.svg" alt="" /></a>
+          <a href="#"><img src="image/vector6.svg" alt="Linkedin icon" /></a>
         </li>
         <li class="social-link-item">
-          <a href="#"><img src="image/Vector7.svg" alt="" /></a>
+          <a href="#"><img src="image/Vector7.svg" alt="Twitter icon" /></a>
         </li>
       </ul>
     </section>
-    <section>
-      <div class="react-work">
-        <img class="title-text" src="image/Title.svg" alt="" />
-        <img class="work" src="image/react.svg" alt="" />
-        <img class="multi" src="image/multi.svg" alt="" />
-        <img class="pharagraph" src="image/pharagraph.svg" alt="" />
-        <ul class="work-choise">
-          <li class="choise">
+    <div class="react-work" id="react-work">
+      <img
+        class="title-text"
+        src="image/Title.svg"
+        alt="My react works title"
+      />
+      <img
+        class="work"
+        src="image/react.svg"
+        alt="Screen shot of Gym fit website"
+      />
+      <img class="multi" src="image/multi.svg" alt="Multi-post stories title" />
+      <p class="pharagraph">
+        A daily selection of privately personalized reads; no accounts or
+        sign-ups required. has been the industry's standard dummy text ever
+        since the 1500s, when an unknown printer took a standard dummy text.
+      </p>
+      <ul class="work-choise">
+        <li class="choise">
+          <a href="#"><img src="image/Tag.svg" alt="Html icon" /></a>
+        </li>
+        <li class="choise">
+          <a href=""><img src="image/html.svg" alt="CSS icon" /></a>
+        </li>
+        <li class="choise">
+          <a href=""><img src="image/bootstrap.svg" alt="Bootstrap icon" /></a>
+        </li>
+        <li class="choise">
+          <a href=""><img src="image/ruby.svg" alt="Ruby icon" /></a>
+        </li>
+      </ul>
+      <button type="submit" class="button1">See Project</button>
+    </div>
+    <div class="react-work-desktop">
+      <div class="home-title">
+        <p class="text-title">My Recent Works</p>
+        <img class="title-line" src="image/line-disctop.png" alt="" />
+      </div>
+      <div class="stories">
+        <img class="multi-desktop" src="image/multi.svg" alt="" />
+        <img
+          class="pharagraph-desktop"
+          src="image/pargraph-desktop.png"
+          alt=""
+        />
+        <ul class="work-choise-desktop">
+          <li class="choise-d">
             <a href="#"><img src="image/Tag.svg" alt="" /></a>
           </li>
-          <li class="choise">
+          <li class="choise-d">
             <a href=""><img src="image/html.svg" alt="" /></a>
           </li>
-          <li class="choise">
+          <li class="choise-d">
             <a href=""><img src="image/bootstrap.svg" alt="" /></a>
           </li>
-          <li class="choise">
+          <li class="choise-d">
             <a href=""><img src="image/ruby.svg" alt="" /></a>
           </li>
         </ul>
-        <button type="submit" class="button1">See Project</button>
+        <button type="submit" class="button1-d">See Project</button>
       </div>
-      <div class="react-work-desktop">
-        <div class="home-title">
-          <p class="text-title">My Recent Works</p>
-          <img class="title-line" src="image/line-disctop.png" alt="" />
+      <div class="wrapper-desktop">
+        <div class="pro-work1">
+          <button type="submit" class="projects-button-desktop">
+            See Project
+          </button>
         </div>
-        <div class="stories">
-          <img class="multi-desktop" src="image/multi.svg" alt="" />
-          <img
-            class="pharagraph-desktop"
-            src="image/pargraph-desktop.png"
-            alt=""
-          />
-          <ul class="work-choise-desktop">
-            <li class="choise-d">
-              <a href="#"><img src="image/Tag.svg" alt="" /></a>
+        <!--Data Dashboard Healthcare-->
+        <div class="pro-work2">
+          <p class="dashboard">Data Dashboard Healthcare</p>
+          <p class="dashboard-pharagraph">
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required. has been the industry's standard
+          </p>
+          <ul class="dashboard-list">
+            <li>
+              <a href=""
+                ><img class="dashbord-list-item" src="image/htmld.png" alt=""
+              /></a>
             </li>
-            <li class="choise-d">
-              <a href=""><img src="image/html.svg" alt="" /></a>
+            <li>
+              <a href=""
+                ><img
+                  class="dashbord-list-item"
+                  src="image/bootstrapd.png"
+                  alt=""
+              /></a>
             </li>
-            <li class="choise-d">
-              <a href=""><img src="image/bootstrap.svg" alt="" /></a>
-            </li>
-            <li class="choise-d">
-              <a href=""><img src="image/ruby.svg" alt="" /></a>
+            <li>
+              <a href=""
+                ><img class="dashbord-list-item" src="image/Rubyd.png" alt=""
+              /></a>
             </li>
           </ul>
-          <button type="submit" class="button1-d">See Project</button>
         </div>
-        <div class="wrapper-desktop">
-          <div class="pro-work1">
-            <button type="submit" class="projects-button-desktop">
-              See Project
-            </button>
-          </div>
-          <!--Data Dashboard Healthcare-->
-          <div class="pro-work2">
-            <p class="dashboard">Data Dashboard Healthcare</p>
-            <p class="dashboard-pharagraph">
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required. has been the industry's standard
-            </p>
-            <ul class="dashboard-list">
-              <li>
-                <a href=""
-                  ><img class="dashbord-list-item" src="image/htmld.png" alt=""
-                /></a>
-              </li>
-              <li>
-                <a href=""
-                  ><img
-                    class="dashbord-list-item"
-                    src="image/bootstrapd.png"
-                    alt=""
-                /></a>
-              </li>
-              <li>
-                <a href=""
-                  ><img class="dashbord-list-item" src="image/Rubyd.png" alt=""
-                /></a>
-              </li>
-            </ul>
-          </div>
-          <!--Website Protfolio -->
-          <div class="pro-work3">
-            <p class="website-portfolio">Website Protfolio</p>
-            <p class="website-portfolio-pharagraph">
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required. has been the industry's standard
-            </p>
-            <ul class="dashboard-list">
-              <li>
-                <a href=""
-                  ><img class="dashbord-list-item" src="image/htmld.png" alt=""
-                /></a>
-              </li>
-              <li>
-                <a href=""
-                  ><img
-                    class="dashbord-list-item"
-                    src="image/bootstrapd.png"
-                    alt=""
-                /></a>
-              </li>
-              <li>
-                <a href=""
-                  ><img class="dashbord-list-item" src="image/Rubyd.png" alt=""
-                /></a>
-              </li>
-            </ul>
-          </div>
-          <!--Profesional Art Printing Data More-->
-          <div class="pro-work4">
-            <p class="dashboard">Profesional Art Printing Data More</p>
-            <p class="dashboard-pharagraph">
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required. has been the industry's standard
-            </p>
-            <ul class="dashboard-list">
-              <li>
-                <a href=""
-                  ><img class="dashbord-list-item" src="image/htmld.png" alt=""
-                /></a>
-              </li>
-              <li>
-                <a href=""
-                  ><img
-                    class="dashbord-list-item"
-                    src="image/bootstrapd.png"
-                    alt=""
-                /></a>
-              </li>
-              <li>
-                <a href=""
-                  ><img class="dashbord-list-item" src="image/Rubyd.png" alt=""
-                /></a>
-              </li>
-              <li>
-                <a href=""
-                  ><img class="dashbord-list-item" src="image/Rubyd.png" alt=""
-                /></a>
-              </li>
-            </ul>
-          </div>
-          <!-- Data Dashboard Healthcare2 -->
-          <div class="pro-work2">
-            <p class="dashboard">Data Dashboard Healthcare</p>
-            <p class="dashboard-pharagraph">
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required. has been the industry's standard
-            </p>
-            <ul class="dashboard-list">
-              <li>
-                <a href=""
-                  ><img class="dashbord-list-item" src="image/htmld.png" alt=""
-                /></a>
-              </li>
-              <li>
-                <a href=""
-                  ><img
-                    class="dashbord-list-item"
-                    src="image/bootstrapd.png"
-                    alt=""
-                /></a>
-              </li>
-              <li>
-                <a href=""
-                  ><img class="dashbord-list-item" src="image/Rubyd.png" alt=""
-                /></a>
-              </li>
-            </ul>
-          </div>
-          <!-- 444444444444 -->
-          <div class="pro-work3">
-            <p class="website-portfolio">Website Protfolio</p>
-            <p class="website-portfolio-pharagraph">
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required. has been the industry's standard
-            </p>
-            <ul class="dashboard-list">
-              <li>
-                <a href=""
-                  ><img class="dashbord-list-item" src="image/htmld.png" alt=""
-                /></a>
-              </li>
-              <li>
-                <a href=""
-                  ><img
-                    class="dashbord-list-item"
-                    src="image/bootstrapd.png"
-                    alt=""
-                /></a>
-              </li>
-              <li>
-                <a href=""
-                  ><img class="dashbord-list-item" src="image/Rubyd.png" alt=""
-                /></a>
-              </li>
-            </ul>
-          </div>
+        <!--Website Protfolio -->
+        <div class="pro-work3">
+          <p class="website-portfolio">Website Protfolio</p>
+          <p class="website-portfolio-pharagraph">
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required. has been the industry's standard
+          </p>
+          <ul class="dashboard-list">
+            <li>
+              <a href=""
+                ><img class="dashbord-list-item" src="image/htmld.png" alt=""
+              /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img
+                  class="dashbord-list-item"
+                  src="image/bootstrapd.png"
+                  alt=""
+              /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img class="dashbord-list-item" src="image/Rubyd.png" alt=""
+              /></a>
+            </li>
+          </ul>
+        </div>
+        <!--Profesional Art Printing Data More-->
+        <div class="pro-work4">
+          <p class="dashboard">Profesional Art Printing Data More</p>
+          <p class="dashboard-pharagraph">
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required. has been the industry's standard
+          </p>
+          <ul class="dashboard-list">
+            <li>
+              <a href=""
+                ><img class="dashbord-list-item" src="image/htmld.png" alt=""
+              /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img
+                  class="dashbord-list-item"
+                  src="image/bootstrapd.png"
+                  alt=""
+              /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img class="dashbord-list-item" src="image/Rubyd.png" alt=""
+              /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img class="dashbord-list-item" src="image/Rubyd.png" alt=""
+              /></a>
+            </li>
+          </ul>
+        </div>
+        <!-- Data Dashboard Healthcare2 -->
+        <div class="pro-work2">
+          <p class="dashboard">Data Dashboard Healthcare</p>
+          <p class="dashboard-pharagraph">
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required. has been the industry's standard
+          </p>
+          <ul class="dashboard-list">
+            <li>
+              <a href=""
+                ><img class="dashbord-list-item" src="image/htmld.png" alt=""
+              /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img
+                  class="dashbord-list-item"
+                  src="image/bootstrapd.png"
+                  alt=""
+              /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img class="dashbord-list-item" src="image/Rubyd.png" alt=""
+              /></a>
+            </li>
+          </ul>
+        </div>
+        <!-- 444444444444 -->
+        <div class="pro-work3">
+          <p class="website-portfolio">Website Protfolio</p>
+          <p class="website-portfolio-pharagraph">
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required. has been the industry's standard
+          </p>
+          <ul class="dashboard-list">
+            <li>
+              <a href=""
+                ><img class="dashbord-list-item" src="image/htmld.png" alt=""
+              /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img
+                  class="dashbord-list-item"
+                  src="image/bootstrapd.png"
+                  alt=""
+              /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img class="dashbord-list-item" src="image/Rubyd.png" alt=""
+              /></a>
+            </li>
+          </ul>
         </div>
       </div>
-    </section>
+    </div>
     <div class="wrapper">
-      <div class="profesional-react1">
+      <div class="profesional-react1" id="profesional-react1">
         <img class="prof1" src="image/pro.svg" alt="" />
         <p class="text1">
           A daily selection of privately personalized reads; no accounts or
@@ -394,7 +424,7 @@
 
       <button type="submit" class="projects-button">See Project</button>
     </div>
-    <div class="aboutme-contener">
+    <div class="aboutme-contener" id="aboutme-contener">
       <div class="aboutme-desktop">
         <img class="aboutme-img" src="image/aboutme.svg" alt="Aboutme" />
         <p class="text-aboutme">
@@ -444,7 +474,7 @@
       </ul>
     </div>
     <!-- form section -->
-    <form action="https://formspree.io/f/mzbokejq" method="post">
+    <form id="contact" action="https://formspree.io/f/mzbokejq" method="post">
       <img class="image-form" src="image/Primary-Text.svg" alt="" />
       <ul class="form-list">
         <li class="form-name">
@@ -507,5 +537,6 @@
         </li>
       </ul>
     </form>
+    <script src="app.js" crossorigin="anonymous"></script>
   </body>
 </html>
