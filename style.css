@@ -654,7 +654,6 @@ a {
     align-content: center;
     margin-left: 12.5rem;
     position: fixed;
-    /* display: none; */
     background-color: white;
     width: 1000px;
     left: -100%;
@@ -886,7 +885,6 @@ a {
     display: grid;
     grid-template-columns: repeat(3, 23.0625rem);
     margin-top: 5.625rem;
-    /* grid-row-gap: 1.875rem; */
   }
 
   .pro-work1 {
@@ -997,6 +995,7 @@ a {
     height: 27.1875rem;
     width: 22rem;
   }
+
   /* js card */
 
   .pro-works0 {
@@ -1137,8 +1136,6 @@ a {
     height: 27.1875rem;
     width: 22rem;
   }
-
-  /*  */
 
   .aboutme-contener {
     background-color: #262626;

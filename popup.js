@@ -1,4 +1,4 @@
-let modelContanirArry = {
+const modelContanirArry = {
   modelheader: {
     modeltitile: [
       'Keeping track of hundreds  of components website',
@@ -51,7 +51,9 @@ tags2.appendChild(tag2Image);
 tag2Image.src = modelContanirArry.modeltag.tag2;
 tags3.appendChild(tag3Image);
 tag3Image.src = modelContanirArry.modeltag.tag3;
-tags1.className = tags2.className = tags3.className = 'model-tag-item';
+tags1.className = 'model-tag-item';
+tags2.className = 'model-tag-item';
+tags3.className = 'model-tag-item';
 modelTags.appendChild(tags1);
 modelTags.appendChild(tags2);
 modelTags.appendChild(tags3);
@@ -78,7 +80,7 @@ modelImages.style.marginBottom = '35px';
 modelImages.className = 'model-image';
 modelImages.src = modelContanirArry.modelBody.bodyimage;
 seeLive.href = 'https://yohannesdagnachew.github.io/';
-seeLive.innerHTML = `<img src="image/Enable1.svg" alt=""/>`;
+seeLive.innerHTML = `<img src='image/Enable1.svg' />`;
 seeSource.href = 'https://yohannesdagnachew.github.io/';
 seeSource.style.marginLeft = '10px';
 seeSource.innerHTML = `<img src='image/Enable.svg' alt=''/>`;
