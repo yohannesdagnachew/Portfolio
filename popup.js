@@ -16,7 +16,7 @@ let modelContanirArry = {
     modeltext: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.`,
   },
 };
-//Model Header
+
 const modelHeaders = document.createElement('div');
 const modeltTitiles = document.createElement('h2');
 const modeltTitiles2 = document.createElement('h2');
@@ -61,7 +61,7 @@ tag3Image.className = 'ruby-on-rail';
 const ht = document.querySelector('.model-container');
 const hb = document.querySelector('.bottom-container');
 
-// // Image and Description part
+// Image and Description part
 const modelBodys = document.createElement('div');
 const modelImages = document.createElement('img');
 const bodyTexts = document.createElement('p');
@@ -78,10 +78,10 @@ modelImages.style.marginBottom = '35px';
 modelImages.className = 'model-image';
 modelImages.src = modelContanirArry.modelBody.bodyimage;
 seeLive.href = 'https://yohannesdagnachew.github.io/';
-seeLive.innerHTML = '<img src="image/Enable1.svg" alt=""/>';
+seeLive.innerHTML = `<img src="image/Enable1.svg" alt=""/>`;
 seeSource.href = 'https://yohannesdagnachew.github.io/';
 seeSource.style.marginLeft = '10px';
-seeSource.innerHTML = "<img src='image/Enable.svg' alt=''/>";
+seeSource.innerHTML = `<img src='image/Enable.svg' alt=''/>`;
 
 modelBodys.appendChild(modelImages);
 modelBodys.appendChild(modelDescriptions);
