@@ -6,7 +6,7 @@ const cardTitle = [
   'Data DashboardHealthcare',
   '',
 ];
-const cardPharagraph = `A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard`;
+const cardPharagraph = 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry standard';
 console.log(cardPharagraph);
 
 const cardWrap = document.querySelector('.wrapper-desktop');
@@ -14,8 +14,7 @@ const cardWrap = document.querySelector('.wrapper-desktop');
 for (let i = 0; i < cardTitle.length; i += 1) {
   if (i < 5) {
     const fatch = document.querySelector('.wrapper-desktop').innerHTML;
-    cardWrap.innerHTML =
-      `<div class='pro-works${5 - i}'>
+    cardWrap.innerHTML = `<div class='pro-works${5 - i}'>
         <p class='website-portfolio-card'>${cardTitle[i]}</p>
         <p class='website-portfolio-pharagraph'>
           ${cardPharagraph}
@@ -44,8 +43,7 @@ for (let i = 0; i < cardTitle.length; i += 1) {
       </div>` + fatch;
   } else {
     const fatch = document.querySelector('.wrapper-desktop').innerHTML;
-    cardWrap.innerHTML =
-      `<div class='pro-works0'>
+    cardWrap.innerHTML = `<div class='pro-works0'>
     <p class='website-portfolio-card'>${cardTitle[i]}</p>
     <p class='website-portfolio-pharagraph'>
      jjjjj
