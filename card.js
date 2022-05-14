@@ -8,10 +8,10 @@ const cardTitle = [
 ];
 const cardPharagraph = 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry standard'
 const cardWrap = document.querySelector('.wrapper-desktop');
+const me = document.createElement('div');
 
 for (let i = 0; i < cardTitle.length; i += 1) {
   if (i < 5) {
-    const fatch = document.querySelector('.wrapper-desktop').innerHTML;
     cardWrap.innerHTML = `<div class="pro-works${5 - i}">
         <p class="website-portfolio-card">${cardTitle[i]}</p>
         <p class="website-portfolio-pharagraph">
@@ -38,7 +38,7 @@ for (let i = 0; i < cardTitle.length; i += 1) {
           </li>
         </ul>
         <button class="cardbutton${i}">See Project</button>
-      </div>`;
+      </div>` + document.querySelector('.wrapper-desktop').innerHTML;
   } else {
     const fatch = document.querySelector('.wrapper-desktop').innerHTML;
     cardWrap.innerHTML = `<div class='pro-works0'>
