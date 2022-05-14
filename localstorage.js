@@ -10,19 +10,18 @@ function contact() {
 }
 const checkLocalStorage = localStorage.getItem('contactForm');
 
-// if (checkLocalStorage) {
-//   document.querySelector('#name').value = JSON.parse(checkLocalStorage).username;
-//   document.querySelector('.email').value = JSON.parse(checkLocalStorage).email;
-//   document.querySelector('#message').value = JSON.parse(checkLocalStorage).text;
-// } else {
-//   document.querySelector('#name').onchange = () => {
-//     contact();
-//   };
-//   document.querySelector('.email').onchange = () => {
-//     contact();
-//   };
-//   document.querySelector('#message').onchange = () => {
-//     contact();
-//   };
-// }
-//
+if (checkLocalStorage) {
+  document.querySelector('#name').value = JSON.parse(checkLocalStorage).username;
+  document.querySelector('.email').value = JSON.parse(checkLocalStorage).email;
+  document.querySelector('#message').value = JSON.parse(checkLocalStorage).text;
+} else {
+  document.querySelector('#name').onchange = () => {
+    contact();
+  };
+  document.querySelector('.email').onchange = () => {
+    contact();
+  };
+  document.querySelector('#message').onchange = () => {
+    contact();
+  };
+}
