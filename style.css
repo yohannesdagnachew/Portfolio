@@ -955,13 +955,7 @@ a {
   .dashbord-list-item {
     margin-right: 0.625rem;
   }
-
-  .pro-work3 {
-    background-image: url("image/pro3.png");
-    height: 27.1875rem;
-    width: 22rem;
-  }
-
+  
   .website-portfolio {
     position: static;
     width: 21.0625rem;
