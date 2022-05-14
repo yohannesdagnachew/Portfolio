@@ -6,9 +6,7 @@ const cardTitle = [
   'Data DashboardHealthcare',
   '',
 ];
-const cardPharagraph = 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry standard';
-console.log(cardPharagraph);
-
+const cardPharagraph = 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry standard'
 const cardWrap = document.querySelector('.wrapper-desktop');
 
 for (let i = 0; i < cardTitle.length; i += 1) {
@@ -40,7 +38,7 @@ for (let i = 0; i < cardTitle.length; i += 1) {
           </li>
         </ul>
         <button class="cardbutton${i}">See Project</button>
-      </div>` + fatch;
+      </div>`;
   } else {
     const fatch = document.querySelector('.wrapper-desktop').innerHTML;
     cardWrap.innerHTML = `<div class='pro-works0'>

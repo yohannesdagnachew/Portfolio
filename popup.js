@@ -92,7 +92,6 @@ modelBodys.appendChild(modelDescriptions);
 modelDescriptions.append(bodyTexts);
 modelDescriptions.append(seeLive);
 modelDescriptions.append(seeSource);
-console.log(modelDescriptions);
 
 ht.insertBefore(modelHeaders, hb);
 ht.insertBefore(modelTags, hb);
