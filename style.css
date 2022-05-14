@@ -31,6 +31,8 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 2.5rem;
+  margin-right: 0.75rem;
 }
 
 .nav-item {
@@ -55,6 +57,79 @@ a {
 }
 
 @media (max-width: 768px) {
+  .model-container {
+    align-content: center;
+    position: fixed;
+    z-index: 1000;
+    background-color: white;
+    opacity: 1;
+    top: 0;
+    width: 457px;
+    margin-left: 1rem;
+    display: none;
+    flex-direction: column;
+    background-image: url("image/photo10.svg");
+    background-position: 45%;
+    background-size: 450px 21.25rem;
+    background-repeat: no-repeat;
+  }
+
+  .model-container.active {
+    display: block;
+  }
+
+  .model-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-left: 0.625rem;
+  }
+
+  .model-text {
+    margin-bottom: 20px;
+    margin-right: 3.125rem;
+    margin-top: 240px;
+    width: 100%;
+  }
+
+  .model-title {
+    display: none;
+  }
+
+  .model-titile2 {
+    margin-left: -0.8125rem;
+  }
+
+  .model-body {
+    margin-top: 24px;
+    display: flex;
+    gap: 25px;
+    margin-left: 0.625rem;
+  }
+
+  .model-image {
+    display: none;
+  }
+
+  .ruby-on-rail {
+    background-color: white;
+  }
+
+  .model-header .close-model {
+    border: none;
+    background: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    margin-right: 2.5rem;
+    color: #67798e;
+  }
+
+  .model-tag-item {
+    margin-left: 0.625rem;
+  }
+
   .navbar {
     background: #3e3c3c;
     width: 30.8125rem;
@@ -284,7 +359,7 @@ a {
   }
 
   .wrapper-desktop {
-    display: none;
+    display: flex;
   }
 
   .profesional-react1 {
@@ -575,6 +650,61 @@ a {
 /* Desktop */
 
 @media only screen and (min-width: 776px) {
+  .model-container {
+    align-content: center;
+    margin-left: 12.5rem;
+    position: fixed;
+    background-color: white;
+    width: 1000px;
+    left: -100%;
+  }
+
+  .model-container.active {
+    left: 0;
+  }
+
+  .model-titile2 {
+    display: none;
+  }
+
+  .model-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-left: 0.625rem;
+  }
+
+  .model-text {
+    margin-bottom: 40px;
+    margin-right: 3.125rem;
+  }
+
+  .model-body {
+    margin-top: 24px;
+    display: flex;
+    gap: 25px;
+    margin-left: 0.625rem;
+  }
+
+  .ruby-on-rail {
+    background-color: white;
+  }
+
+  .model-header .close-model {
+    border: none;
+    background: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    margin-right: 2.5rem;
+    color: #67798e;
+  }
+
+  .model-tag-item {
+    margin-left: 0.625rem;
+  }
+
   hr {
     display: none;
   }
@@ -754,8 +884,7 @@ a {
   .wrapper-desktop {
     display: grid;
     grid-template-columns: repeat(3, 23.0625rem);
-    margin-top: 9.375rem;
-    grid-row-gap: 1.875rem;
+    margin-top: 5.625rem;
   }
 
   .pro-work1 {
@@ -827,12 +956,6 @@ a {
     margin-right: 0.625rem;
   }
 
-  .pro-work3 {
-    background-image: url("image/pro3.png");
-    height: 27.1875rem;
-    width: 22rem;
-  }
-
   .website-portfolio {
     position: static;
     width: 21.0625rem;
@@ -863,6 +986,147 @@ a {
 
   .pro-work4 {
     background-image: url("image/pro11.png");
+    height: 27.1875rem;
+    width: 22rem;
+  }
+
+  /* js card */
+
+  .pro-works0 {
+    background-image: url("image/pro1.png");
+    height: 31.25rem;
+    width: 22rem;
+    background-color: black;
+  }
+
+  .pro-work3 {
+    display: none;
+  }
+
+  .website-portfolio-card {
+    position: static;
+    width: 21.0625rem;
+    height: 5.3125rem;
+    font-family: "Crete Round", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.75rem;
+    line-height: 2.3125rem;
+    color: white;
+    margin-top: 58%;
+    margin-left: 0.8125rem;
+  }
+
+  .cardbutton0 {
+    background-color: #ff6b00;
+    width: 22rem;
+    height: 3rem;
+    border: none;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    margin-top: -0.625rem;
+  }
+
+  .cardbutton1 {
+    background-color: #ff6b00;
+    width: 22rem;
+    height: 3rem;
+    border: none;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    margin-top: -0.625rem;
+  }
+
+  .cardbutton2 {
+    background-color: #ff6b00;
+    width: 22rem;
+    height: 3rem;
+    border: none;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    margin-top: -0.625rem;
+  }
+
+  .cardbutton3 {
+    background-color: #ff6b00;
+    width: 22rem;
+    height: 3rem;
+    border: none;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    margin-top: -0.625rem;
+  }
+
+  .cardbutton4 {
+    background-color: #ff6b00;
+    width: 22rem;
+    height: 3rem;
+    border: none;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    margin-top: -0.625rem;
+  }
+
+  .cardbutton5 {
+    background-color: #ff6b00;
+    width: 22rem;
+    height: 3rem;
+    border: none;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    margin-top: -0.625rem;
+  }
+
+  .pro-works1 {
+    background-image: url("image/pro2.png");
+    height: 27.1875rem;
+    width: 22rem;
+  }
+
+  .pro-works2 {
+    background-image: url("image/pro3.png");
+    height: 27.1875rem;
+    width: 22rem;
+  }
+
+  .pro-works3 {
+    background-image: url("image/pro11.png");
+    height: 27.1875rem;
+    width: 22rem;
+  }
+
+  .pro-works4 {
+    background-image: url("image/pro2.png");
+    height: 27.1875rem;
+    width: 22rem;
+  }
+
+  .pro-works5 {
+    background-image: url("image/pro3.png");
     height: 27.1875rem;
     width: 22rem;
   }
