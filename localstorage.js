@@ -1,6 +1,6 @@
-const StudentlInformation = {};
+let StudentlInformation = {};
 function contact() {
-    StudentlInformation = {
+  StudentlInformation = {
     username: document.querySelector('#name').value,
     email: document.querySelector('#email').value,
     text: document.querySelector('#message').value,
