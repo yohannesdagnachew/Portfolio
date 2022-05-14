@@ -83,7 +83,7 @@ seeLive.href = 'https://yohannesdagnachew.github.io/';
 seeLive.innerHTML = `<img src='image/Enable1.svg' />`;
 seeSource.href = 'https://yohannesdagnachew.github.io/';
 seeSource.style.marginLeft = '10px';
-seeSource.innerHTML = `<img src='image/Enable.svg' alt=''/>`;
+seeSource.innerHTML = `<img src='image/Enable.svg' alt='Source'/>`;
 
 modelBodys.appendChild(modelImages);
 modelBodys.appendChild(modelDescriptions);
