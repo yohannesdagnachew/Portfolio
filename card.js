@@ -11,88 +11,90 @@ console.log(cardPharagraph);
 
 const cardWrap = document.querySelector('.wrapper-desktop');
 
-for (let i = 0; i < cardTitle.length; i +=1 ) {
+for (let i = 0; i < cardTitle.length; i += 1) {
   if (i < 5) {
     const fatch = document.querySelector('.wrapper-desktop').innerHTML;
-    cardWrap.innerHTML = `<div class="pro-works${5 - i}">
-        <p class="website-portfolio-card">${cardTitle[i]}</p>
-        <p class="website-portfolio-pharagraph">
+    cardWrap.innerHTML =
+      `<div class='pro-works${5 - i}'>
+        <p class='website-portfolio-card'>${cardTitle[i]}</p>
+        <p class='website-portfolio-pharagraph'>
           ${cardPharagraph}
         </p>
-        <ul class="dashboard-list">
+        <ul class='dashboard-list'>
           <li>
-            <a href=""
-              ><img class="dashbord-list-item" src="image/htmld.png" alt=""
+            <a href='#'
+              ><img class='dashbord-list-item' src='image/htmld.png' alt='image'
             /></a>
           </li>
           <li>
-            <a href=""
+            <a href='#'
               ><img
-                class="dashbord-list-item"
-                src="image/bootstrapd.png"
-                alt=""
+                class='dashbord-list-item'
+                src='image/bootstrapd.png'
+                alt='image'
             /></a>
           </li>
           <li>
-            <a href=""
-              ><img class="dashbord-list-item" src="image/Rubyd.png" alt=""
+            <a href='#'
+              ><img class='dashbord-list-item' src='image/Rubyd.png' alt='image'
             /></a>
           </li>
         </ul>
-        <button class="cardbutton${i}">See Project</button>
+        <button class='cardbutton${i}'>See Project</button>
       </div>` + fatch;
   } else {
     const fatch = document.querySelector('.wrapper-desktop').innerHTML;
-    cardWrap.innerHTML = `<div class="pro-works0">
-    <p class="website-portfolio-card">${cardTitle[i]}</p>
-    <p class="website-portfolio-pharagraph">
+    cardWrap.innerHTML =
+      `<div class='pro-works0'>
+    <p class='website-portfolio-card'>${cardTitle[i]}</p>
+    <p class='website-portfolio-pharagraph'>
      jjjjj
     </p>
-    <ul class="dashboard-list">
+    <ul class='dashboard-list'>
       <li>
-        <a href=""
-          ><img class="dashbord-list-item" src="image/htmld.png" alt=""
+        <a href='#'
+          ><img class='dashbord-list-item' src='image/htmld.png' alt='image'
         /></a>
       </li>
       <li>
-        <a href=""
+        <a href='#'
           ><img
-            class="dashbord-list-item"
-            src="image/bootstrapd.png"
-            alt=""
+            class='dashbord-list-item'
+            src='image/bootstrapd.png'
+            alt='image'
         /></a>
       </li>
       <li>
-        <a href=""
-          ><img class="dashbord-list-item" src="image/Rubyd.png" alt=""
+        <a href='#'
+          ><img class='dashbord-list-item' src='image/Rubyd.png' alt='image'
         /></a>
       </li>
     </ul>
-    <button class="cardbutton${i}">See Project</button>
+    <button class='cardbutton${i}'>See Project</button>
   </div>` + fatch;
   }
 }
 
 const multi = document.querySelector('.stories');
 
-multi.innerHTML = `<img class="multi-desktop" src="image/multi.svg" alt="" />
+multi.innerHTML = `<img class='multi-desktop' src='image/multi.svg' alt='image' />
 <img
-  class="pharagraph-desktop"
-  src="image/pargraph-desktop.png"
-  alt=""
+  class='pharagraph-desktop'
+  src='image/pargraph-desktop.png'
+  alt='image'
 />
-<ul class="work-choise-desktop">
-  <li class="choise-d">
-    <a href="#"><img src="image/Tag.svg" alt="" /></a>
+<ul class='work-choise-desktop'>
+  <li class='choise-d'>
+    <a href='#'><img src='image/Tag.svg' alt='image' /></a>
   </li>
-  <li class="choise-d">
-    <a href=""><img src="image/html.svg" alt="" /></a>
+  <li class='choise-d'>
+    <a href='#'><img src='image/html.svg' alt='image' /></a>
   </li>
-  <li class="choise-d">
-    <a href=""><img src="image/bootstrap.svg" alt="" /></a>
+  <li class='choise-d'>
+    <a href='#'><img src='image/bootstrap.svg' alt='image' /></a>
   </li>
-  <li class="choise-d">
-    <a href=""><img src="image/ruby.svg" alt="" /></a>
+  <li class='choise-d'>
+    <a href='#'><img src='image/ruby.svg' alt='image' /></a>
   </li>
 </ul>
-<button class="button1-d tryail2">See Project</button>`;
+<button class='button1-d tryail2'>See Project</button>`;
