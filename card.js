@@ -14,32 +14,32 @@ const cardWrap = document.querySelector('.wrapper-desktop');
 for (let i = 0; i < cardTitle.length; i += 1) {
   if (i < 5) {
     const fatch = document.querySelector('.wrapper-desktop').innerHTML;
-    cardWrap.innerHTML = `<div class='pro-works${5 - i}'>
-        <p class='website-portfolio-card'>${cardTitle[i]}</p>
-        <p class='website-portfolio-pharagraph'>
+    cardWrap.innerHTML = `<div class="pro-works${5 - i}">
+        <p class="website-portfolio-card">${cardTitle[i]}</p>
+        <p class="website-portfolio-pharagraph">
           ${cardPharagraph}
         </p>
-        <ul class='dashboard-list'>
+        <ul class="dashboard-list">
           <li>
-            <a href='#'
-              ><img class='dashbord-list-item' src='image/htmld.png' alt='image'
+            <a href="#"
+              ><img class="dashbord-list-item" src="image/htmld.png" alt="image"
             /></a>
           </li>
           <li>
-            <a href='#'
+            <a href="#"
               ><img
-                class='dashbord-list-item'
-                src='image/bootstrapd.png'
-                alt='image'
+                class="dashbord-list-item"
+                src="image/bootstrapd.png"
+                alt="image"
             /></a>
           </li>
           <li>
-            <a href='#'
-              ><img class='dashbord-list-item' src='image/Rubyd.png' alt='image'
+            <a href="#"
+              ><img class="dashbord-list-item" src="image/Rubyd.png" alt="image"
             /></a>
           </li>
         </ul>
-        <button class='cardbutton${i}'>See Project</button>
+        <button class="cardbutton${i}">See Project</button>
       </div>` + fatch;
   } else {
     const fatch = document.querySelector('.wrapper-desktop').innerHTML;

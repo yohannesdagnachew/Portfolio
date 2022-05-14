@@ -2,6 +2,8 @@ const modelContanirArry = {
   modelheader: {
     modeltitile: [
       'Keeping track of hundreds  of components website',
+    ],
+    modeltitileMob: [
       'Multi Post Stories',
     ],
     closeModel: 'X',
@@ -13,7 +15,7 @@ const modelContanirArry = {
   },
   modelBody: {
     bodyimage: 'image/model-image.png',
-    modeltext: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.`,
+    modeltext: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
   },
 };
 
@@ -23,8 +25,8 @@ const modeltTitiles2 = document.createElement('h2');
 const closeModels = document.createElement('button');
 
 modeltTitiles.nextSibling = closeModels;
-modeltTitiles.innerText = modelContanirArry.modelheader.modeltitile[0];
-modeltTitiles2.innerText = modelContanirArry.modelheader.modeltitile[1];
+modeltTitiles.innerText = modelContanirArry.modelheader.modeltitile;
+modeltTitiles2.innerText = modelContanirArry.modelheader.modeltitileMob;
 closeModels.innerText = modelContanirArry.modelheader.closeModel;
 modelHeaders.appendChild(modeltTitiles);
 modelHeaders.appendChild(modeltTitiles2);
@@ -80,10 +82,10 @@ modelImages.style.marginBottom = '35px';
 modelImages.className = 'model-image';
 modelImages.src = modelContanirArry.modelBody.bodyimage;
 seeLive.href = 'https://yohannesdagnachew.github.io/';
-seeLive.innerHTML = '<img src=`image/Enable1.svg` />';
+seeLive.innerHTML = '<img src="image/Enable1.svg" />';
 seeSource.href = 'https://yohannesdagnachew.github.io/';
 seeSource.style.marginLeft = '10px';
-seeSource.innerHTML = '<img src=`image/Enable.svg` alt=`Source`/>';
+seeSource.innerHTML = '<img src="image/Enable.svg" alt="Source"/>';
 
 modelBodys.appendChild(modelImages);
 modelBodys.appendChild(modelDescriptions);
