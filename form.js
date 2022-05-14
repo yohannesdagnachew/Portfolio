@@ -2,7 +2,7 @@ const contactemail = document.querySelector('.form')
 const error = document.querySelector('#error');
 contactemail.addEventListener('submit', (e) => {
     let right = true;
-    const Demail = document.querySelector('.email').value;
+    const Demail = document.querySelector('#email').value;
     const emailArray = Demail.split('');
     for (let i = 0; i < emailArray.length; i += 1) {
       if (
