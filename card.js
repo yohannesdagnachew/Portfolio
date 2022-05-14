@@ -1,12 +1,12 @@
 const cardTitle = [
-  'Website Protfolio ','Data DashboardHealthcare','Profesional Art Printing Data More','Website Protfolio ','Data DashboardHealthcare','0'
+  'Website Protfolio ' ,'Data DashboardHealthcare', 'Profesional Art Printing Data More', 'Website Protfolio ', 'Data DashboardHealthcare', '',
 ];
 const cardPharagraph = 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry standard';
 const cardWrap = document.querySelector('.wrapper-desktop');
 
 for (let i = 0; i < cardTitle.length; i += 1) {
-    cardWrap.innerHTML += `<div class="pro-works${i}">
-        <p class="website-portfolio-card">${cardTitle[5-i]}</p>
+  cardWrap.innerHTML += `<div class="pro-works${i}">
+        <p class="website-portfolio-card">${cardTitle[5 - i]}</p>
         <p class="website-portfolio-pharagraph">
           ${cardPharagraph}
         </p>
