@@ -11,7 +11,7 @@ console.log(cardPharagraph);
 
 const cardWrap = document.querySelector('.wrapper-desktop');
 
-for (let i = 0; i < cardTitle.length; i+=1) {
+for (let i = 0; i < cardTitle.length; i +=1 ) {
   if (i < 5) {
     const fatch = document.querySelector('.wrapper-desktop').innerHTML;
     cardWrap.innerHTML=`<div class="pro-works${5 - i}">
