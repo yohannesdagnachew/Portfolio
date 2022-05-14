@@ -83,9 +83,9 @@ modelImages.className = 'model-image';
 modelImages.src = modelContanirArry.modelBody.bodyimage;
 seeLive.href = 'https://yohannesdagnachew.github.io/';
 seeLive.innerHTML = '<img src="image/Enable1.svg" />';
-seeSource.href = 'https://yohannesdagnachew.github.io/';
+seeSource.href = 'https://github.com/yohannesdagnachew/Portfolio/';
 seeSource.style.marginLeft = '10px';
-seeSource.innerHTML = '<img src="image/Enable.svg" alt="Source"/>';
+seeSource.innerHTML = '<img src="image/source.svg" alt="Source"/>';
 
 modelBodys.appendChild(modelImages);
 modelBodys.appendChild(modelDescriptions);
