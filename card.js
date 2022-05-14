@@ -1,5 +1,5 @@
 const cardTitle = [
-  'Website Protfolio ' ,'Data DashboardHealthcare', 'Profesional Art Printing Data More', 'Website Protfolio ', 'Data DashboardHealthcare', '',
+  'Website Protfolio ', 'Data DashboardHealthcare', 'Profesional Art Printing Data More', 'Website Protfolio', 'Data DashboardHealthcare', '',
 ];
 const cardPharagraph = 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry standard';
 const cardWrap = document.querySelector('.wrapper-desktop');
